@@ -1,0 +1,244 @@
+
+body { margin: 0; font: 0.7em Tahoma, Arial, sans-serif; line-height: 1.6em; background: #294052; color: #000; }
+
+
+.clear {
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+/* HEADER STYLING */
+
+#top-bar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    border: 0px solid #fff;
+}
+
+#top-bar #logo {
+    background: transparent url(../images/imeals.png) no-repeat left bottom;
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#top-bar #step-one-wrapper {
+    float: left;
+    border: 0px solid #ff0;
+    width: 825px;
+    height: 100%;
+}
+
+#top-bar #step-one-wrapper #step-one {
+    width: 264px;
+    height: 80px;
+    border: 0px solid #0ff;
+    float: right;
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+#top-bar #step-one-wrapper #step-one ul {
+    margin: 0;
+    margin-left: 35px;
+    padding: 0;
+    height: 80px;
+}
+
+#top-bar #step-one-wrapper #step-one ul li {
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+    list-style:none;
+    float: left;
+
+    height: 80px;
+}
+
+#top-bar #step-one-wrapper #step-one ul li a img[rel="active"] {
+    border: 2px solid #8FBCDB;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#top-bar #step-one-wrapper #step-one ul li.search-icon {
+    margin-top: 6px;
+}
+#top-bar #step-one-wrapper #step-one ul li.order-icon {
+    margin-bottom: 6px;
+}
+
+
+#top-bar #step-one-wrapper #step-one ul li span {
+    display: none;
+}
+
+#top-bar #step-one-wrapper #address-input {
+    float: left;
+    margin-left:10px;
+    width:550px;
+    height:50px;
+    margin-top: 30px;
+    border: 0px;
+}
+
+#top-bar #step-one-wrapper #address-input #address-input-left {
+    float:left;
+    background:url(../images/address-input-left.png) no-repeat;
+    width:12px;
+    height:50px;
+}
+
+#top-bar #step-one-wrapper #address-input #address-input-middle {
+    float:left;
+    background:url(../images/address-input-middle.png) repeat-x;
+    width:526px;
+    height:50px;
+}
+
+#top-bar #step-one-wrapper #address-input #address-input-right {
+    float:left;
+    background:url(../images/address-input-right.png) no-repeat;
+    width:12px;
+    height:50px;
+}
+
+#top-bar #step-one-wrapper #address-input #address-real-input{
+    display:block;
+    width:526px;
+    height:45px;
+    background:transparent;
+    border:0px;
+    color:#294052;
+    font-family:helvetica, sans-serif;
+    font-size:14px;
+    padding-left:20px;
+    font-weight: bold;
+}
+
+#top-bar #step-one-wrapper #address-input #address-icon {
+    position:absolute;
+    display:block;
+    float:left;
+    margin-top: -36px;
+    margin-left: -8px;
+    padding-right:10px;
+}
+
+/* autocomplete location styles */
+
+span[role="status"] {
+    display:none;
+}
+
+/* GENERIC CONTENT STYLING */
+
+#content {
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 0px;
+    width: 99%;
+    min-height: 640px;
+    border: 2px solid #8FBCDB;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+#footer {
+    height: 100px;
+    background: transparent;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 20px;
+    line-height: normal;
+    text-align: center;
+    color: #8FBCDB;
+}
+
+#footer a {
+    color: #8FBCDB;
+}
+
+/* columns */
+
+#content #left-column {
+    float: left;
+}
+
+#content #right-column {
+    width: 33%;
+    float: right;
+
+    border: 1px solid #f00;
+}
+
+
+/* UI CUSTOMIZATION */
+
+.ui-tooltip {
+    padding: 10px 20px;
+    color: #294052;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    box-shadow: 0 0 7px black;
+
+    background: #fff;
+    border: 2px solid #8FBCDB;
+
+    width: 350px;
+}
+
+ul.ui-autocomplete {
+    background: #fff;
+    border: 2px solid #8FBCDB;
+    width:526px;
+    border-radius: 5px;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+ul.ui-autocomplete li.ui-menu-item {
+    background: #fff;
+    list-style: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 75px;
+
+    height: 64px;
+}
+
+ul.ui-autocomplete  li.ui-menu-item:hover {
+    background: #a8ffa4;
+    cursor:pointer;
+    border: 2px solid #8FBCDB;
+    border-radius: 5px;
+}
+
+/* cart / custom-meal */
+
+#custom-meal {
+    display: none;
+}
+
+ul.category-images {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.category-images li {
+    display: none;
+}

@@ -1,0 +1,1 @@
+<p>admin/manage/menu/list-item view rendered</p>

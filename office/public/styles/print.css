@@ -1,0 +1,27 @@
+#tray {
+    display: none;
+}
+
+hr.noscreen {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+#cols #aside {
+    display: none;
+}
+
+.box {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
+
+#current-order {
+    display: block;
+}

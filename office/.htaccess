@@ -1,0 +1,22 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/var/www/e-restaurant/admin/.htpasswd"
+Require valid-user
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)\.(wav|eot|otf|svg|ttf|woff|cgi|js|ico|gif|jpg|png|css|htc|rdf|xpi|src|pdf|swf|xml)$ public/$1.$2 [NC,L]
+    RewriteRule !\.(wav|eot|otf|svg|ttf|woff|cgi|js|ico|gif|jpg|png|css|htc|rdf|xpi|src|pdf|swf|xml)$ public/index.php [NC,L]
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+
+    ErrorDocument 404 /public/index.php
+</IfModule>

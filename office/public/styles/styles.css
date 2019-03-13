@@ -1,0 +1,578 @@
+
+/* =============================================================================
+
+	STYLE.CSS
+	version: 1.6
+	updated: 2009-03-06, 13:00 GMT+1
+
+============================================================================= */
+
+/* =============================================================================
+HTML - styles
+============================================================================= */
+
+body {background-color:#eaeaea; color:#303030;}
+a {color:#0085cc;}
+a:hover, a:active, a:focus {color:#df0000;}
+.content h2 {color:#0085cc;}
+.content table {border:2px solid #cfcfcf;}
+.content table th {border-right:1px solid #0074B3; background-color:#0085cc; color:#fff;}
+.content table td {border:1px solid #cfcfcf;}
+.content table tr.bg td {background-color:#e8f6ff;}
+.content dl dt {color:#df0000;}
+.content fieldset {border:1px solid #ccc;}
+.content legend {background:#FFF; color:#0085cc;}
+.content acronym, .content abbr, .content .help {border-bottom:1px dotted #cfcfcf;}
+
+/* =============================================================================
+HTML - without styles
+============================================================================= */
+
+table.nostyle th, dl.nostyle dt {color:#303030 !important;}
+
+/* =============================================================================
+LAYOUT
+============================================================================= */
+
+#tray {background-color:#303030; color:#cfcfcf;}
+#tray a, #tray strong {color:#fff;}
+#tray a:hover, #tray a:active, #tray a:focus {color:#b4e3ff;}
+#menu {background-color:#0085cc;}
+#menu ul li a {background-color:#fff; color:#303030;}
+#menu ul li a span {background-color:#FFF;}
+#menu ul li a:hover, #menu ul li a:active, #menu ul li a:focus, #menu ul li#menu-active a {background-color:#FFF; color:#df0000;}
+#menu ul li a:hover span, #menu ul li#menu-active a span {background-color:#FFF;}
+#menu ul li#menu-active a {color:#0085cc;}
+#menu ul.f-right a {color:#df0000;}
+.content {border:1px solid #afafaf; background:#fff;}
+#footer {color:#707070;}
+#footer a {color:#707070;}
+#footer a:hover, #footer a:active, #footer a:focus {color:#303030;}
+
+/* =============================================================================
+OTHERS
+============================================================================= */
+
+#aside #logo img {border:1px solid #bfbfbf;}
+#aside #search fieldset a {color:#303030;}
+#aside #search fieldset {border:1px solid #bfbfbf;}
+#aside #search fieldset a:hover, #aside #search fieldset a:active, #aside #search fieldset a:focus {color:#df0000;}
+#aside #btn-create a {background-color:#fff; color:#303030;}
+#aside #btn-create a span {background-color:#fff;}
+#aside ul li a {border-bottom:1px solid #cfcfcf; color:#303030;}
+#aside ul li#submenu-active a {background-color:#df0000; color:#fff;}
+#aside ul li a:hover, #aside ul li a:active, #aside ul li a:focus {color:#df0000;}
+#aside ul li#action-active a:link, #aside ul li#action-active a:visited, #aside ul li#action-active a:active, #aside ul li#action-active a:focus {color:#df0000;}
+#aside ul ul li a, #aside ul li#submenu-active ul li a {border-bottom:1px solid #cfcfcf; background-color:#f5f5f5; color:#303030;}
+#aside ul li ul li a {background-color:#e3e3e3;}
+#aside ul ul li a:hover, #aside ul ul li a:active, #aside ul ul li a:focus, #aside ul li#submenu-active ul li a:hover, #aside ul li#submenu-active ul li a:active, #aside ul li#submenu-active ul li a:focus {color:#df0000;}
+.content h1 {background-color:#303030; color:#fff;}
+.content .tabs {border-bottom:1px solid #cfcfcf;}
+.content .tabs a {color:#303030;}
+.content .tabs a span {color:#303030;}
+.content .tabs .ui-tabs-selected a {color:#fff;}
+.content .tabs .ui-tabs-selected a span {color:#fff;}
+.high {color:#df0000;}
+.high-bg {background:#FFB;}
+.low {color:#707070;}
+
+/* =============================================================================
+MESSAGES
+============================================================================= */
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {border:2px solid #5dcb2b; background-color:#a8ffa4;}
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;}
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;}
+
+/* eVias update */
+.fLeft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.txtLeft {
+    text-align: left;
+}
+
+.txtCenter {
+    text-align :center;
+}
+
+.txtRight {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.price {
+    font: bold 12px Verdana;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+ul.actions-list { margin: 0; padding: 0; list-style-type:none; }
+ul.actions-list li { padding:0; margin:0; float:left; }
+ul.actions-list li button { font-weight: bold; color: #0085cc; height: 25px; }
+
+table.active-order {
+    border: 1px solid #cfcfcf;
+}
+
+table.active-order tr {
+   border: 0px;
+}
+
+table.active-order tr td {
+   border: 0px;
+}
+
+table.active-order tr td ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+table.active-order tr td ul li {
+    padding: 2px 5px 2px 10px;
+    background: transparent;
+}
+
+table.active-order tr td span.upper-label {
+    text-transform: uppercase;
+}
+
+table.active-order tr td span.small {
+    font: normal 12px Verdana;
+}
+table.active-order tr td ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+table.active-order tr td ul li {
+    padding: 2px 5px 2px 10px;
+    background: transparent;
+    text-align:left;
+}
+
+table.active-order tr td span.upper-label {
+    text-transform: uppercase;
+}
+
+table.active-order tr td span.small {
+    font: normal 12px Verdana;
+}
+
+table tr.order:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+table tr.active-order {
+    background-color: #84ccf1;
+}
+
+table tr.active-order:hover {
+    background-color: #84ccf1;
+}
+
+table tr.actions {
+    padding:0px;
+}
+
+table tr.actions td {
+    padding: 0px;
+}
+
+table tr.actions td div {
+    background: url(../images/arrow_for_selection.png) no-repeat left top;
+    padding: 0px 24px;
+    margin: 0px;
+    margin-left: 8px;
+    height: 24px;
+}
+
+table tr.actions td div div {
+    background: transparent;
+    padding: 5px;
+}
+
+table tr.actions td div div span {
+    font-weight: bold;
+}
+
+
+.msg ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.msg ul li {
+    background: transparent;
+}
+
+form label {
+    width: 200px;
+    float: left;
+}
+
+form input[type="text"] {
+    float: left;
+    width: 350px;
+    border: 1px solid #cfcfcf;
+    font: normal 13px Verdana;
+}
+
+form input[type="text"]#item_price {
+    width: 200px;
+}
+
+form input[type="text"].very-short {
+    width: 120px;
+}
+
+form input[type="text"].short {
+    width: 180px;
+}
+
+form input[type="text"].normal {
+    width: 350px;
+}
+
+form input[type="text"].long {
+    width: 650px;
+}
+
+form textarea {
+    float: left;
+    width: 40%;
+    border: 1px solid #cfcfcf;
+    font: normal 13px Verdana;
+}
+
+table tr.category:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+table tr.meal:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+table tr.restaurant:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+table tr.user:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+table tr.acl:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+table tr.data-row:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+
+ul#dashboard-tiles {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #f00;
+    list-style-type: none;
+}
+
+ul#dashboard-tiles li {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+
+    border: 2px solid #cfcfcf;
+    width: 30%;
+    float: left;
+    margin: 5px;
+
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+}
+
+.content table.filter-table {border:1px solid #cfcfcf;}
+.content table.filter-table th {border-right:1px solid #0074B3; background-color:#0085cc; color:#fff;}
+.content table.filter-table td {border:1px solid #cfcfcf;}
+.content table.filter-table tr.bg td {background-color:#e8f6ff;}
+.content table.filter-table tr td input[type='text'] {width: 150px;}
+
+img.add-restaurant-access:hover {
+    cursor: pointer;
+}
+
+img.delete-restaurant-access:hover {
+    cursor: pointer;
+}
+
+ul.ui-autocomplete li {
+}
+
+ul.ui-autocomplete li:hover {
+    cursor: pointer;
+}
+
+.ui-autocomplete-loading {
+    background: white url('../images/ui-anim_basic_16x16.gif') right center no-repeat;
+}
+
+.ui-loading-widget {
+    background: white url('../images/ui-anim_basic_16x16.gif') right center no-repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+ul.availability-suggestions {
+    margin: 50px;
+}
+
+ul.availability-suggestions li {
+    background: #ffffff;
+    margin: 5px;
+    padding: 0px;
+    width: 40%;
+    padding-top: 17px;
+    padding-left: 40px;
+    border: 2px solid #dcdcdc;
+    height: 35px;
+}
+
+ul.availability-suggestions li:hover {
+    cursor: pointer;
+    background: #ccf8b4;
+}
+
+ul.availability-suggestions li.selected {
+    background: #ccf8b4;
+}
+
+p.dark-red {
+    color: #920000;
+}
+
+#room-organisator {
+    margin: 0px;
+    margin-left: 150px;
+    border: 0px solid #dcdcdc;
+    width: 640px;
+    height: 320px;
+}
+
+.room-snaptarget {
+    margin: 0px;
+    border: 2px solid #dcdcdc;
+    height: 280px;
+}
+
+.table-draggable {
+    height: 55px;
+    width: 90px;
+    border: 1px solid #000;
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.table-draggable:hover {
+    cursor: pointer;
+}
+
+.table-draggable p {
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.table-draggable p img.places-incrementor {
+    border: 0px;
+    margin: 0px;
+    margin-right: 3px;
+    float: left;
+}
+
+.table-draggable p img.places-incrementor:hover {
+    cursor: pointer;
+}
+
+#menu-editor {
+    margin: 0px;
+    border: 0px solid #dcdcdc;
+    width: 700px;
+}
+
+.categories-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 250px;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+}
+
+.meals-list {
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 412px;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+}
+
+.category {
+    margin-bottom: 10px;
+    width: 250px;
+    
+}
+
+.category .category-presentation {
+    height: 55px;
+    width: 217px;
+    border: 1px solid #000;
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+    float: left;
+}
+
+.category .category-presentation p {
+    margin: 0px;
+}
+
+.category .category-presentation input[type="text"] {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.category .category-actions {
+    float:left;
+}
+
+.category .category-actions ul {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    width: 19px;
+}
+
+.category .category-actions ul li {
+    margin: 0;
+    padding: 0;
+    padding-left: 3px;
+    background: transparent;
+    width: 16px;
+}
+
+.category .category-actions ul li img {
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.meals {
+    margin: 0px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.meals .meal {
+    height: 90px;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.meal .meal-data {
+    margin: 0px;
+    float: left;
+    width: 370px;
+}
+
+.meal .meal-data input[type="text"] {
+    margin-top: 3px;
+    text-align:center;
+}
+
+.meal .meal-actions {
+    float: left;
+}
+
+.meal .meal-actions ul {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    width: 27px;
+    margin-top: 15px;
+}
+
+.meal .meal-actions ul li {
+    margin: 0;
+    padding: 0;
+    padding-left: 3px;
+    background: transparent;
+    width: 24px;
+}
+
+.meal .meal-actions ul li img {
+    margin: 0px;
+    width: 24px;
+    height: 24px;
+}
+
+.meal .meal-data p {
+    margin: 0;
+    padding: 0;
+}
+
+/* all spinner in eMenuEditor are floated to labels. */
+#menu-editor .ui-spinner {
+    float: left;    
+}
+
+#menu-editor .ui-spinner input {
+    width: 30px;
+}
+
+.ui-selectee { cursor:pointer; }
+.ui-selecting { background: #feca40; }
+.ui-selected { background: #ccf8b4; }

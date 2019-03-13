@@ -1,0 +1,1 @@
+<p>admin/manage/menu/preview view rendered</p>

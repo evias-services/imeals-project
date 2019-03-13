@@ -1,0 +1,172 @@
+.clear {
+    clear: both;
+}
+
+div#restaurant-menu {
+    height: 700px;
+    padding: 10px 10px 10px 10px;
+    border:1px solid #0ff;
+    overflow: auto;
+}
+
+div#restaurant-menu div#categories-navigation {
+    float:left ;
+    width: 180px;
+    border: 1px solid #f00;
+}
+
+div#restaurant-menu div#categories-navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+div#restaurant-menu div#categories-navigation ul li {
+
+}
+
+div#restaurant-menu div#categories-navigation ul li h3 {
+    font: normal 12px Verdana;
+}
+
+div#restaurant-menu div#categories-navigation ul li h3 a:link,
+div#restaurant-menu div#categories-navigation ul li h3 a:visited {
+    text-decoration:none;
+    color: #e8820c;
+}
+
+div#restaurant-menu div#categories-navigation ul li h3 a:active,
+div#restaurant-menu div#categories-navigation ul li h3 a:hover {
+    text-decoration:underline;
+    color: #e8820c;
+}
+
+div#restaurant-menu div#wunsch-pizza {
+    display:none;
+}
+
+div#restaurant-menu div.category-content {
+    float:left;
+    width: 480px;
+    border: 1px solid #0f0;
+}
+
+div#restaurant-menu div.category-content h4 {
+    font: bold 12px Verdana;
+    margin: 0px;
+    padding: 3px 15px;
+    text-align: center;
+}
+
+div#restaurant-menu div.category-content h4 a:link,
+div#restaurant-menu div.category-content h4 a:visited {
+    text-decoration: none;
+}
+
+div#restaurant-menu div.category-content h4 a:active,
+div#restaurant-menu div.category-content h4 a:hover {
+    text-decoration: none;
+}
+
+div#restaurant-menu div.category-content ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style-type: none;
+}
+
+div#restaurant-menu div.category-content ul li {
+    width: 465px;
+    height: 94px;
+    padding: 0px 5px;
+    margin: 5px 0px 0px 0px;
+    border:0px;
+    border-bottom: 1px dashed #98570b;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+div#restaurant-menu div.category-content ul li:hover {
+    background:#fff;
+    cursor: pointer;
+}
+
+div#restaurant-menu div.category-content ul li div {
+    margin: 0px;
+    padding: 5px;
+}
+
+div#restaurant-menu div.category-content ul li div div.top-line {
+    padding: 0px;
+    height: 32px;
+}
+
+div#restaurant-menu div.category-content ul li div div.bottom-line {
+    padding: 0px;
+    min-height:54px;
+}
+
+div#restaurant-menu div.category-content ul li div div div.meal-title {
+    width: 230px;
+    float:left;
+    margin: 0px;
+}
+
+div#restaurant-menu div.category-content ul li div div div.meal-price {
+    width: 200px;
+    float:right;
+    padding: 0px;
+}
+
+div#restaurant-menu div.category-content ul li div div div.meal-price div.price-tag {
+    border: 0px;
+    width: 55px;
+    padding: 0px;
+    float:left;
+    margin: 0px;
+    margin-top: 6px;
+    text-align:right;
+}
+
+div#restaurant-menu div.category-content ul li div div div.meal-price div.add-to-cart {
+    background: url(../images/add-to-cart.jpg) no-repeat;
+    width: 105px;
+    height: 30px;
+    padding: 0px;
+    float:right;
+    padding-left: 34px;
+}
+
+div#restaurant-menu div.category-content ul li div div div.label {
+    width: 30%;
+    padding: 0px;
+    padding-left: 15px;
+    margin: 0px;
+
+}
+
+div#restaurant-menu div.category-content ul li div div div.ingredients {
+    width: 60%;
+    padding:0px;
+    margin: 0px;
+    height: 54px;
+}
+
+div#restaurant-menu div.category-content ul li div div div span.meal-title {
+    font: normal 14px Verdana;
+    text-decoration: underline;
+}
+
+div#restaurant-menu div.category-content ul li div div div span.label {
+    font: normal 10px Verdana;
+    text-decoration: underline;
+}
+
+div#restaurant-menu div.category-content ul li div div div span.meal-ing {
+    font: italic 11px Verdana;
+    text-decoration: none;
+}
+

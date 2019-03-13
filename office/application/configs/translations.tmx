@@ -1,0 +1,1596 @@
+<?xml version="1.0" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+	<header creationtoolversion="24.0.0"
+			datatype="winres"
+			segtype="sentence"
+			adminlang="fr" srclang="fr"
+			o-tmf="abc"
+			creationtool="Greg's brain">
+	</header>
+	<body>
+
+
+<!-- NAVIGATION LINKS -->
+		<tu tuid="txt_link_dashboard">
+			<tuv xml:lang="fr"><seg>Dashboard</seg></tuv>
+			<tuv xml:lang="de"><seg>Dashboard</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_website">
+			<tuv xml:lang="fr"><seg>Front Office</seg></tuv>
+			<tuv xml:lang="de"><seg>Front Office</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_menu">
+			<tuv xml:lang="fr"><seg>La Carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speisekarte</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_customers">
+			<tuv xml:lang="fr"><seg>La client&#232;le</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Kunden</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_gallery">
+            <tuv xml:lang="fr"><seg>Contenu</seg></tuv>
+			<tuv xml:lang="de"><seg>Content</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_orders">
+			<tuv xml:lang="fr"><seg>Commandes</seg></tuv>
+			<tuv xml:lang="de"><seg>Bestellungen</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_restaurant">
+			<tuv xml:lang="fr"><seg>Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Restaurant</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_restaurants">
+			<tuv xml:lang="fr"><seg>Les Restaurants</seg></tuv>
+			<tuv xml:lang="de"><seg>Unsere Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="txt_link_menu_edit_menu">
+			<tuv xml:lang="fr"><seg>&#201;dition de la carte</seg></tuv>
+			<tuv xml:lang="de"><seg>die Speisekarte &#228;ndern</seg></tuv>
+		</tu>
+        <tu tuid="txt_link_menu_print">
+			<tuv xml:lang="fr"><seg>Aper&#231;u</seg></tuv>
+			<tuv xml:lang="de"><seg>Vorschau</seg></tuv>
+		</tu>
+        <tu tuid="txt_link_menu_list_category">
+			<tuv xml:lang="fr"><seg>Les cat&#233;gories</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Kategorien</seg></tuv>
+		</tu>
+        <tu tuid="txt_link_menu_list_item">
+			<tuv xml:lang="fr"><seg>Les pl&#226;ts</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speisen</seg></tuv>
+		</tu>
+        <tu tuid="txt_link_restaurant_edit">
+			<tuv xml:lang="fr"><seg>Param&#232;tres de votre e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Einstellungen Ihres e-Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="txt_link_restaurant_settings">
+			<tuv xml:lang="fr"><seg>Param&#232;tres g&#233;n&#233;raux</seg></tuv>
+			<tuv xml:lang="de"><seg>Allgemeine Einstellungen</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_users">
+			<tuv xml:lang="fr"><seg>Utilisateurs</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzer</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_listusers">
+			<tuv xml:lang="fr"><seg>Les comptes utilisateurs</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Benutzerkonten</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_listacl">
+			<tuv xml:lang="fr"><seg>Les règles d'accès</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Zugriffsregeln</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_menus">
+			<tuv xml:lang="fr"><seg>Les menus</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speiskarten</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_booking">
+			<tuv xml:lang="fr"><seg>Réservations</seg></tuv>
+			<tuv xml:lang="de"><seg>Buchungen</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_bookings">
+			<tuv xml:lang="fr"><seg>Les réservations</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Buchungen</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_bookings_list_rooms">
+			<tuv xml:lang="fr"><seg>Les salles</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Räume</seg></tuv>
+		</tu>
+		<tu tuid="txt_link_bookings_list_tables">
+			<tuv xml:lang="fr"><seg>Les tables</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Tische</seg></tuv>
+		</tu>
+
+
+<!-- ERROR MESSAGES -->
+        <tu tuid="error_restaurant_still_white_label">
+			<tuv xml:lang="fr"><seg>Votre restaurant n'est pas configur&#233;. Veuillez modifier les donn&#233;es concernant votre restaurant.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihr Restaurant ist nocht nicht konfiguriert. Erg&#228;nzen Sie bitte die Restaurant Einstellungen.</seg></tuv>
+        </tu>
+        <tu tuid="txt_error_invalidrequest">
+			<tuv xml:lang="fr"><seg>Votre requ&#234;te n'est pas valide.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihre Anfrage wird nicht erstattet.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_restaurant_save">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de la sauvegarde du restaurant: '%s'</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Speichern des Restaurants ein Fehler aufgetreten: '%s'</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_booking_save">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de la sauvegarde de la réservation: '%s'</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Speichern der Buchung ein Fehler aufgetreten: '%s'</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_room_save">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de la sauvegarde de la salle '%s'</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Speichern des Raumes ein Fehler aufgetreten: '%s'</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_deletewa_no_menu">
+			<tuv xml:lang="fr"><seg>Vous n'avez pas fourni de menu pour l'action de suppression.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie haben keine Speisekarten zum L&#246;schen ausgew&#228;hlt.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_delete_no_items">
+			<tuv xml:lang="fr"><seg>Vous n'avez pas fourni de pl&#226;ts pour l'action de suppression.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie haben keine Speisen zum L&#246;schen ausgew&#228;hlt.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_delete_no_categories">
+			<tuv xml:lang="fr"><seg>Vous n'avez pas fourni de cat&#233;gories pour l'action de suppression.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie haben keine Kategorien zum L&#246;schen ausgew&#228;hlt.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_delete_no_users">
+			<tuv xml:lang="fr"><seg>Vous n'avez pas fourni d'utilisateurs pour l'action de suppression.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie haben keine Benutzer zum L&#246;schen ausgew&#228;hlt.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_delete_no_orders">
+			<tuv xml:lang="fr"><seg>Vous n'avez pas fourni de commande(s) our l'action de suppression.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie haben keine Bestellung(en) zum L&#246;schen ausgew&#228;hlt.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_category_save">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de la sauvegarde de la cat&#233;gorie: '%s'</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Speichern der Kategorie ein Fehler aufgetreten: '%s'</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_meal_save">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de la sauvegarde du pl&#226;t: '%s'</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Speichern der Speise ein Fehler aufgetreten: '%s'</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_login">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de votre tentative d'authentification.</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Einloggen ein Fehler aufgetreten.</seg></tuv>
+		</tu>
+        <tu tuid="txt_error_menu_save">
+			<tuv xml:lang="fr"><seg>Une erreur s'est produite lors de la sauvegarde du menu: '%s'</seg></tuv>
+			<tuv xml:lang="de"><seg>Es ist beim Speichern der Speisekarte ein Fehler aufgetreten: '%s'</seg></tuv>
+		</tu>
+        <tu tuid="error_delete_nodata">
+			<tuv xml:lang="fr"><seg>Veuillez sélectionner des objets de la liste afin qu'il puisse être supprimés.</seg></tuv>
+			<tuv xml:lang="de"><seg>Wählen Sie bitte Objekte aus der Liste aus damit sie gelöscht werden.</seg></tuv>
+		</tu>
+
+
+<!-- INFO MESSAGES -->
+        <tu tuid="txt_info_restaurant_save">
+			<tuv xml:lang="fr"><seg>Le restaurant a &#233;t&#233; mis &#224; jour avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Das Restaurant wurde erfolgreich gespeichert.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_restaurant_delete">
+			<tuv xml:lang="fr"><seg>Le restaurant a &#233;t&#233; supprimé avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Das Restaurant wurde erfolgreich gelöscht.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_category_save">
+			<tuv xml:lang="fr"><seg>La cat&#233;gorie '%s' a &#233;t&#233; mise &#224; jour avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Kategorie '%s' wurde erfolgreich gespeichert.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_category_delete">
+			<tuv xml:lang="fr"><seg>Les cat&#233;gories ont &#233;t&#233; supprim&#233;es avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Kategorien wurden erfolgreich gel&#246;scht.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_meal_save">
+			<tuv xml:lang="fr"><seg>Le pl&#226;t '%s' a &#233;t&#233; mis &#224; jour avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speise '%s' wurde erfolgreich gespeichert.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_meal_delete">
+			<tuv xml:lang="fr"><seg>Les pl&#226;ts ont &#233;t&#233; supprim&#233;es avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speisen wurden erfolgreich gel&#246;scht.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_order_delete">
+			<tuv xml:lang="fr"><seg>Les commandes ont &#233;t&#233; supprim&#233;es avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Bestellungen wurden erfolgreich gel&#246;scht.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_user_save">
+			<tuv xml:lang="fr"><seg>L'utilisateur '%s' a &#233;t&#233; mis &#224; jour avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Der Benutzer '%s' wurde erfolgreich gespeichert.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_user_delete">
+			<tuv xml:lang="fr"><seg>Les utilisateurs ont &#233;t&#233; supprim&#233;s avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Benutzer wurden erfolgreich gel&#246;scht.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_menu_save">
+			<tuv xml:lang="fr"><seg>Le menu a &#233;t&#233; mis &#224; jour avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speisekarte wurde erfolgreich gespeichert.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_menu_delete">
+			<tuv xml:lang="fr"><seg>Le(s) menu(s) a &#233;t&#233; supprimé(s) avec succ&#232;s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speisekarte(n) wurde(n) erfolgreich gelöscht.</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_room_save">
+	    <tuv xml:lang="fr"><seg>La salle '%s' du restaurant '%s' a &#233;t&#233; mise &#224; jour avec succ&#232;s.</seg></tuv>
+	    <tuv xml:lang="de"><seg>Der Raum '%s' im Restaurant '%s' wurde erfolgreich gespeichert.</seg></tuv>
+	</tu>
+        <tu tuid="txt_info_booking_save">
+	    <tuv xml:lang="fr"><seg>La %s pour le client '%s' à date du %s au %s a &#233;t&#233; mise &#224; jour avec succ&#232;s.</seg></tuv>
+	    <tuv xml:lang="de"><seg>Die %s für den Kunden '%s' vom %s bis %s wurde erfolgreich gespeichert.</seg></tuv>
+	</tu>
+
+
+<!-- GENERIC FIELDS / MESSAGES -->
+        <tu tuid="legend_listresults">
+			<tuv xml:lang="fr"><seg>Résultats</seg></tuv>
+			<tuv xml:lang="de"><seg>Resultate</seg></tuv>
+		</tu>
+        <tu tuid="form_submit">
+			<tuv xml:lang="fr"><seg>Sauvegarder</seg></tuv>
+			<tuv xml:lang="de"><seg>Speichern</seg></tuv>
+		</tu>
+        <tu tuid="form_cancel">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+        <tu tuid="form_submit_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>Löschen</seg></tuv>
+		</tu>
+        <tu tuid="legend_filter_form">
+			<tuv xml:lang="fr"><seg>Filtrage de données</seg></tuv>
+			<tuv xml:lang="de"><seg>Alle Filter entfernen</seg></tuv>
+		</tu>
+        <tu tuid="filter_submit">
+			<tuv xml:lang="fr"><seg>Filtrer les données</seg></tuv>
+			<tuv xml:lang="de"><seg>Daten filtern</seg></tuv>
+		</tu>
+        <tu tuid="filter_reset">
+			<tuv xml:lang="fr"><seg>Enlever tous les filtres</seg></tuv>
+			<tuv xml:lang="de"><seg>Alle Filter entfernen</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_login">
+			<tuv xml:lang="fr"><seg>Nom d'utilisateur :</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzername :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_email">
+			<tuv xml:lang="fr"><seg>Adresse e-mail :</seg></tuv>
+			<tuv xml:lang="de"><seg>E-mail Adresse :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_title">
+			<tuv xml:lang="fr"><seg>Titre :</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_phone">
+			<tuv xml:lang="fr"><seg>Numéro de Tél. :</seg></tuv>
+			<tuv xml:lang="de"><seg>Telefonnummer :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_realname">
+			<tuv xml:lang="fr"><seg>Nom et prénom :</seg></tuv>
+			<tuv xml:lang="de"><seg>Name und Vorname :</seg></tuv>
+		</tu>
+        <tu tuid="opt_filter_select">
+			<tuv xml:lang="fr"><seg>Faites un choix</seg></tuv>
+			<tuv xml:lang="de"><seg>Wählen Sie</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_role">
+			<tuv xml:lang="fr"><seg>Rôle utilisateur :</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzerrolle :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_accessright">
+			<tuv xml:lang="fr"><seg>Droit d'accès :</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriffsrecht :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_module">
+			<tuv xml:lang="fr"><seg>'Module' de la ressource :</seg></tuv>
+			<tuv xml:lang="de"><seg>'Modul' der Resource :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_controller">
+			<tuv xml:lang="fr"><seg>'Controller' de la ressource :</seg></tuv>
+			<tuv xml:lang="de"><seg>'Controller' der Resource :</seg></tuv>
+		</tu>
+        <tu tuid="l_filter_action">
+			<tuv xml:lang="fr"><seg>'Action' de la ressource :</seg></tuv>
+			<tuv xml:lang="de"><seg>'Action' der Resource :</seg></tuv>
+		</tu>
+        <tu tuid="resultslist_select_actions">
+			<tuv xml:lang="fr"><seg>Pour la sélection :</seg></tuv>
+			<tuv xml:lang="de"><seg>Für die Auswahl :</seg></tuv>
+		</tu>
+        <tu tuid="resultslist_select_action_opt">
+			<tuv xml:lang="fr"><seg>Ne rien faire</seg></tuv>
+			<tuv xml:lang="de"><seg>Nichts machen</seg></tuv>
+		</tu>
+        <tu tuid="resultslist_action_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>Löschen</seg></tuv>
+		</tu>
+        <tu tuid="th_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="th_title">
+			<tuv xml:lang="fr"><seg>Titre</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel</seg></tuv>
+		</tu>
+        <tu tuid="th_date_created">
+			<tuv xml:lang="fr"><seg>Date de création</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="th_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>Änderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="yes">
+			<tuv xml:lang="fr"><seg>Oui</seg></tuv>
+			<tuv xml:lang="de"><seg>Ja</seg></tuv>
+		</tu>
+        <tu tuid="no">
+			<tuv xml:lang="fr"><seg>Non</seg></tuv>
+			<tuv xml:lang="de"><seg>Nein</seg></tuv>
+		</tu>
+        <tu tuid="with">
+			<tuv xml:lang="fr"><seg>avec</seg></tuv>
+			<tuv xml:lang="de"><seg>mit</seg></tuv>
+		</tu>
+
+
+<!-- MENU MANAGEMENT -->
+        <tu tuid="txt_h2_list_menu">
+			<tuv xml:lang="fr"><seg>Gestion des menus de votre e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Speisekarten Ihres e-Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_menu">
+            <tuv xml:lang="fr"><seg><ul><li>Un menu représente la ou les carte(s) de plâts proposées aux visiteurs.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Eine Speisekarte ist ein Menü das dem Besucher angezeigt wird.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="action_addmenu">
+			<tuv xml:lang="fr"><seg>Ajouter une carte de plâts</seg></tuv>
+			<tuv xml:lang="de"><seg>Eine Speisekarte hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_menu_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_menu_restaurant_title">
+			<tuv xml:lang="fr"><seg>e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>e-Restaurant</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_menu_title">
+			<tuv xml:lang="fr"><seg>Titre</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_menu_date_created">
+			<tuv xml:lang="fr"><seg>Date de création</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_menu_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>Änderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_opt_menu_select_restaurant">
+			<tuv xml:lang="fr"><seg>Faites un choix</seg></tuv>
+			<tuv xml:lang="de"><seg>Wählen Sie</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_menu_restaurant">
+			<tuv xml:lang="fr"><seg>e-Restaurant :</seg></tuv>
+			<tuv xml:lang="de"><seg>e-Restaurant :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_menu_title">
+			<tuv xml:lang="fr"><seg>Titre :</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_menu_legend">
+			<tuv xml:lang="fr"><seg>Mise à jour et création de menu</seg></tuv>
+			<tuv xml:lang="de"><seg>Änderung und Erstellung von Speisekarten</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_menu_edit">
+			<tuv xml:lang="fr"><seg>Données de la carte de plât</seg></tuv>
+			<tuv xml:lang="de"><seg>Daten der Speisekarte</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_menu_edit">
+            <tuv xml:lang="fr"><seg><ul><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_menu">
+			<tuv xml:lang="fr"><seg>Suppression de menu</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen von Speisekarten</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_menu">
+            <tuv xml:lang="fr"><seg>Il est important de noter certaines choses &#224; propos de la suppression de menu :<br /><ul><li>La suppression de menu entraîne la désactivation des catégories et plâts affichés sur le menu concerné.</li><li>Lorsque le menu est supprimé, il n'est plus disponible depuis le Front Office.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg>Beachten Sie folgende Eigenschaften beim L&#246;schen von Speisekarten :<br /><ul><li>Das Löschen von Speisekarten desaktiviert die Kategorien und Speisen die auf der betroffenen Speisekarten vorhanden sind.</li><li>Wenn eine Speisekarte gelöscht wurde ist es nicht mehr möglich sie vom Front Office aus zu besuchen.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_menu">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des menus enumer&#233;es ci-dessous :</seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Speisekarten :</seg></tuv>
+		</tu>
+        <tu tuid="link_preview_menu">
+			<tuv xml:lang="fr"><seg>Aperçu de la carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Vorschau der Speisekarte</seg></tuv>
+		</tu>
+        <tu tuid="h4_menu_edition">
+			<tuv xml:lang="fr"><seg>Édition du menu</seg></tuv>
+			<tuv xml:lang="de"><seg>Das Menü erstellen</seg></tuv>
+		</tu>
+        <tu tuid="menu_editor_action_addcategory">
+			<tuv xml:lang="fr"><seg>Ajouter une catégorie</seg></tuv>
+			<tuv xml:lang="de"><seg>Eine Kategorie hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="menu_editor_action_addmeal">
+			<tuv xml:lang="fr"><seg>Ajouter un plât</seg></tuv>
+			<tuv xml:lang="de"><seg>Eine Speise hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="category_default_title">
+			<tuv xml:lang="fr"><seg>Catégorie</seg></tuv>
+			<tuv xml:lang="de"><seg>Kategorie</seg></tuv>
+		</tu>
+        <tu tuid="meal_default_title">
+			<tuv xml:lang="fr"><seg>Plât</seg></tuv>
+			<tuv xml:lang="de"><seg>Speise</seg></tuv>
+		</tu>
+        <tu tuid="category_default_desc">
+			<tuv xml:lang="fr"><seg>Description de la catégorie</seg></tuv>
+			<tuv xml:lang="de"><seg>Beschreibung der Kategorie</seg></tuv>
+		</tu>
+        <tu tuid="meal_default_desc">
+			<tuv xml:lang="fr"><seg>Description des ingrédients du plâts</seg></tuv>
+			<tuv xml:lang="de"><seg>Beschreibung der Zutaten der Speise</seg></tuv>
+		</tu>
+        <tu tuid="label_meal_menu_number">
+	    <tuv xml:lang="fr"><seg>Numéro sur la carte :</seg></tuv>
+	    <tuv xml:lang="de"><seg>Nummer auf die Karte :</seg></tuv>
+	</tu>
+        <tu tuid="label_can_be_customized">
+	    <tuv xml:lang="fr"><seg>Autoriser les Suppléments ?</seg></tuv>
+	    <tuv xml:lang="de"><seg>Extras zulassen ?</seg></tuv>
+	</tu>
+        <tu tuid="error_select_category_for_meal">
+	    <tuv xml:lang="fr"><seg>Afin d'ajouter un plât vous devez d'abord sélectionner une catégorie. La catégorie sélectionnée est celle dont la couleur d'arrière plan est le vert.</seg></tuv>
+	    <tuv xml:lang="de"><seg>Zum hinzufügen einer Speise müssen Sie zunächst eine Kategorie auswählen.Die ausgewählte Kategorie ist mit einem grünen Hintergrund angezeigt.</seg></tuv>
+	</tu>
+        <tu tuid="warning_more_than_one_category">
+	    <tuv xml:lang="fr"><seg>Vous avez sélectionné plus d'une catégorie. Voulez-vous vraiment ajouter un plât à chacune de ces catégories ?</seg></tuv>
+	    <tuv xml:lang="de"><seg>Sie haben mehr als eine Kategorie ausgewählt. Wollen Sie wirklich allen ausgewählten Kategorien einer Speise hinzufügen ?</seg></tuv>
+	</tu>
+        <tu tuid="confirm_delete_category">
+	    <tuv xml:lang="fr"><seg>Veuillez confirmer la suppression de la catégorie sélectionnée.%sIMPORTANT: La SUPPRESSION de catégorie désactive la catégorie du menu, elle est ainsi rendue INACCESSIBLE depuis la carte de votre restaurant.%sVoulez-vous vraiment supprimer cette catégorie et les plâts respectifs ?</seg></tuv>
+	    <tuv xml:lang="de"><seg>Bestätigen Sie bitte das Löschen der ausgewählten Kategorie.%sWICHTIG: Nach dem LÖSCHEN einer Kategorie werden die Daten dieser deaktiviert und sind so auf die Speisekarte Ihres Restaurants NICHT mehr VERFÜGBAR.%sWollen Sie diese Kategorie und die anliegenden Speise wirklich löschen ?</seg></tuv>
+	</tu>
+        <tu tuid="label_ingredients">
+	    <tuv xml:lang="fr"><seg>Ingrédients :</seg></tuv>
+	    <tuv xml:lang="de"><seg>Zutaten :</seg></tuv>
+	</tu>
+
+
+
+
+<!-- CATEGORIES MANAGEMENT -->
+        <tu tuid="action_addcategory">
+			<tuv xml:lang="fr"><seg>Ajouter une catégorie à la carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Eine Kategorie der Speisekarte hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_category_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_category_title">
+			<tuv xml:lang="fr"><seg>Titre</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_category_parent">
+			<tuv xml:lang="fr"><seg>Cat&#233;gorie parente</seg></tuv>
+			<tuv xml:lang="de"><seg>Hauptkategorie</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_category_date_created">
+			<tuv xml:lang="fr"><seg>Date de cr&#233;ation</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_category_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>&#196;nderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_category_legend">
+			<tuv xml:lang="fr"><seg>Ajouter une nouvelle cat&#233;gorie</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;gen Sie eine neue Kategorie hinzu</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_category_title">
+			<tuv xml:lang="fr"><seg>Titre :</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_category_description">
+			<tuv xml:lang="fr"><seg>Description :</seg></tuv>
+			<tuv xml:lang="de"><seg>Beschreibung :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_category_parent">
+			<tuv xml:lang="fr"><seg>Cat&#233;gorie parente :</seg></tuv>
+			<tuv xml:lang="de"><seg>Hauptkategorie :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_category_select_action_opt">
+			<tuv xml:lang="fr"><seg>Ne rien faire</seg></tuv>
+			<tuv xml:lang="de"><seg>Nichts machen</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_category_select_actions">
+			<tuv xml:lang="fr"><seg>Pour la s&#233;lection :</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;r die Auswahl :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_category_action_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_categories">
+			<tuv xml:lang="fr"><seg>Gestion de cat&#233;gories sur la carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Kategorien auf der Speisekarte</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_categories">
+            <tuv xml:lang="fr"><seg><ul><li>Une cat&#233;gorie repr&#233;sente un groupement de pl&#226;ts sur la carte du restaurant.</li><li>Il est &#233;galement possible d'ajouter une cat&#233;gorie dans une autre afin de disposer de sous-cat&#233;gories sur la carte.</li><li>(Exemple: sous cat&#233;gories de 'Desserts': Glaces, Patisseries, etc.)</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Eine Kategorie ist eine Gruppierung von Speisen auf der Speisekarte.</li><li>Es ist auch m&#246;glich eine Kategorie einer anderen zu unterordnen sodass eine Sub-Kategorien Hierarchie auf der Speisekarte aufgestellt wird.</li><li>(Beispiel: sub-Kategorien f&#252;r 'Desserts': Eis, Geb&#228;ck, etc.)</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_categories">
+			<tuv xml:lang="fr"><seg>Suppression de categories</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen von Kategorien</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_categories">
+            <tuv xml:lang="fr"><seg>Il est important de noter certaines choses &#224; propos de la suppression de cat&#233;gories :<br /><ul><li>Si la cat&#233;gorie &#233;tait affich&#233;e sur la carte, elle ne sera plus affich&#233;e.</li><li>La carte affich&#233;e au visiteur peut &#234;tre touch&#233;e par la suppression d'une cat&#233;gorie.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg>Beachten Sie folgende Eigenschaften beim L&#246;schen von Kategorien :<br /><ul><li>Wenn die Kategorie auf der Speisekarte zu sehen war, wird sie nach dem L&#246;schen nicht mehr angezeigt werden.</li><li>Die Speisekarte kann durch das L&#246;schen einer Kategorie beeinflusst werden.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_categories">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des cat&#233;gories enumer&#233;es ci-dessous: </seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Kategorien: </seg></tuv>
+		</tu>
+        <tu tuid="txt_form_submit_delete_category">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_cancel_delete_category">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_category_select_parent">
+			<tuv xml:lang="fr"><seg>Faites un choix</seg></tuv>
+			<tuv xml:lang="de"><seg>W&#228;hlen Sie</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_menu_addcategory">
+			<tuv xml:lang="fr"><seg>Mise &#224; jour de cat&#233;gorie</seg></tuv>
+            <tuv xml:lang="de"><seg>Kategorie Einstellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_menu_addcategory">
+            <tuv xml:lang="fr"><seg><ul><li>A l'aide du formulaire pr&#233;sent&#233; ci-dessous, il vous est possible de modifier la cat&#233;gorie s&#233;lectionn&#233;e.</li><li>Veuillez vous rendre &#224; l'aper&#231;u de la carte pour constater vos modifications.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur la carte de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Anhand des unten aufgef&#252;hrten Formulars k&#246;nnen Sie die ausgew&#228;hlte Kategorie &#228;ndern.</li><li>Um die &#196;nderungen der Daten fest zu stellen k&#246;nnen Sie das Men&#252;-Preview Module benutzen.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Speisekarte Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+
+
+
+<!-- ITEMS MANAGEMENT -->
+        <tu tuid="action_additem">
+			<tuv xml:lang="fr"><seg>Ajouter un plât à la carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Eine Speise der Speisekarte hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_item_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_item_title">
+			<tuv xml:lang="fr"><seg>Titre</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_item_price">
+			<tuv xml:lang="fr"><seg>Prix</seg></tuv>
+			<tuv xml:lang="de"><seg>Preis</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_item_date_created">
+			<tuv xml:lang="fr"><seg>Date de cr&#233;ation</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_item_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>&#196;nderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_item_legend">
+            <tuv xml:lang="fr"><seg>Ajouter un nouveau pl&#226;t</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;gen Sie eine neue Speise hinzu</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_item_title">
+			<tuv xml:lang="fr"><seg>Titre :</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_item_desc">
+			<tuv xml:lang="fr"><seg>Description :</seg></tuv>
+			<tuv xml:lang="de"><seg>Beschreibung :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_item_small_desc">
+			<tuv xml:lang="fr"><seg>Informations d'ingr&#233;dients :</seg></tuv>
+			<tuv xml:lang="de"><seg>Zutaten Informationen :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_item_price">
+			<tuv xml:lang="fr"><seg>Prix :</seg></tuv>
+			<tuv xml:lang="de"><seg>Preis :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_item_category">
+			<tuv xml:lang="fr"><seg>Cat&#233;gorie</seg></tuv>
+			<tuv xml:lang="de"><seg>Kategorie</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_item_select_action_opt">
+			<tuv xml:lang="fr"><seg>Ne rien faire</seg></tuv>
+			<tuv xml:lang="de"><seg>Nichts machen</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_item_select_actions">
+			<tuv xml:lang="fr"><seg>Pour la s&#233;lection :</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;r die Auswahl :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_item_action_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_items">
+			<tuv xml:lang="fr"><seg>Gestion de pl&#226;ts sur la carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Speisen auf der Speisekarte</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_items">
+            <tuv xml:lang="fr"><seg><ul><li>Un pl&#226;t represente un &#233;l&#233;ment commandable par le visiteur du site web.</li><li>Les pl&#226;ts peuvent etre group&#233;s dans des cat&#233;gories.</li><li>(Exemple: ajouter le pl&#226;t 'Tortellini al forno' dans la cat&#233;gorie 'Tortellini')</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Eine Speise ist ein bestellbares Element f&#252;r den Besucher der Webseite.</li><li>Speisen k&#246;nnen in Kategorien unterteilt werden.</li><li>(Beispiel: Die Speise 'Tortellini al forno' in der Kategorie 'Tortellini' hinzuf&#252;gen</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_items">
+			<tuv xml:lang="fr"><seg>Suppression de plats</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen von Speisen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_items">
+            <tuv xml:lang="fr"><seg>Il est important de noter certaines choses &#224; propos de la suppression de pl&#226;ts: <br /><ul><li>Si le pl&#226;t est affich&#233; sur la carte lors de la suppression, la carte sera affect&#233;e par le changement.</li></ul></seg></tuv>
+                    <tuv xml:lang="de"><seg>Beachten Sie folgenden Eigenschaften beim L&#246;schen von Speisen:<br /><ul><li>Wenn die Speise vor dem L&#246;schen auf der Speisekarte angezeigt wurde, wird die Speisekarte vom L&#246;schen beeinflusst.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_items">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des pl&#226;ts enumer&#233;es ci-dessous: </seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten augelisteten Speisen: </seg></tuv>
+		</tu>
+        <tu tuid="txt_form_submit_delete_item">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_cancel_delete_item">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+        <tu tuid="txt_opt_item_select_category">
+			<tuv xml:lang="fr"><seg>Choix de la cat&#233;gorie</seg></tuv>
+			<tuv xml:lang="de"><seg>Auswahl der Kategorie</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_menu_additem">
+			<tuv xml:lang="fr"><seg>Mise &#224; jour de pl&#226;t</seg></tuv>
+            <tuv xml:lang="de"><seg>Speisen Einstellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_menu_additem">
+            <tuv xml:lang="fr"><seg><ul><li>A l'aide du formulaire pr&#233;sent&#233; ci-dessous, il vous est possible de modifier le pl&#226;t s&#233;lectionn&#233;e.</li><li>Veuillez vous rendre &#224; l'aper&#231;u de la carte pour constater vos modifications.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur la carte de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Anhand des unten aufgef&#252;hrten Formulars k&#246;nnen Sie die ausgew&#228;hlte Speise &#228;ndern.</li><li>Um die &#196;nderungen der Daten fest zu stellen k&#246;nnen Sie das Men&#252;-Preview Module benutzen.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Speisekarte Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+
+
+<!-- ORDERS MANAGEMENT -->
+        <tu tuid="txt_h2_list_orders">
+			<tuv xml:lang="fr"><seg>Liste des commandes en ligne</seg></tuv>
+			<tuv xml:lang="de"><seg>Liste der Online-Bestellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_order_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_order_restaurant_title">
+			<tuv xml:lang="fr"><seg>e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>e-Restaurant</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_order_customer">
+			<tuv xml:lang="fr"><seg>Informations sur le client</seg></tuv>
+			<tuv xml:lang="de"><seg>Kunden Informationen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_order_date_created">
+			<tuv xml:lang="fr"><seg>Prise de la commande</seg></tuv>
+			<tuv xml:lang="de"><seg>Bestellungszeit</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_order_date_updated">
+			<tuv xml:lang="fr"><seg>Date d'ouverture</seg></tuv>
+			<tuv xml:lang="de"><seg>&#214;ffnungsdatum</seg></tuv>
+		</tu>
+
+        <tu tuid="prev_cart_address_table">
+			<tuv xml:lang="fr"><seg>Livraison de la commande</seg></tuv>
+			<tuv xml:lang="de"><seg>Lieferung der Bestellung</seg></tuv>
+        </tu>
+
+        <tu tuid="prev_cart_ticket_table">
+			<tuv xml:lang="fr"><seg>Frais hors livraison (max 2,- euro)</seg></tuv>
+			<tuv xml:lang="de"><seg>Kosten ohne Lieferung (max 2,- euro)</seg></tuv>
+        </tu>
+
+        <tu tuid="txt_cart_meals_title">
+			<tuv xml:lang="fr"><seg>Pl&#226;ts</seg></tuv>
+			<tuv xml:lang="de"><seg>Speisen</seg></tuv>
+ 		</tu>
+        <tu tuid="txt_cart_cnt_title">
+			<tuv xml:lang="fr"><seg>Quantit&#233;</seg></tuv>
+			<tuv xml:lang="de"><seg>Anzahl</seg></tuv>
+ 		</tu>
+        <tu tuid="txt_cart_price_title">
+			<tuv xml:lang="fr"><seg>Prix Unitaire</seg></tuv>
+			<tuv xml:lang="de"><seg>Einzelpreis</seg></tuv>
+ 		</tu>
+
+        <tu tuid="cart_total_label">
+			<tuv xml:lang="fr"><seg>Total</seg></tuv>
+			<tuv xml:lang="de"><seg>Gesamtbetrag</seg></tuv>
+ 		</tu>
+
+        <tu tuid="label_customer_name">
+			<tuv xml:lang="fr"><seg>Nom et pr&#233;nom : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Name und Vorname : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_phone">
+			<tuv xml:lang="fr"><seg>Numero de t&#233;l&#233;phone : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Telefonnummer : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_email">
+			<tuv xml:lang="fr"><seg>Adresse e-mail :</seg></tuv>
+			<tuv xml:lang="de"><seg>E-Mail Adresse :</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_city">
+			<tuv xml:lang="fr"><seg>Code postal, lieu : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Postleitzahl, Ort : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_address">
+			<tuv xml:lang="fr"><seg>Adresse : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_comment">
+			<tuv xml:lang="fr"><seg>Informations compl&#233;mentaires :</seg></tuv>
+			<tuv xml:lang="de"><seg>Zus&#228;tsliche Informationen :</seg></tuv>
+        </tu>
+
+        <tu tuid="h2_welcome_screen">
+			<tuv xml:lang="fr"><seg>Accueil de l'administration de votre restaurant en ligne</seg></tuv>
+			<tuv xml:lang="de"><seg>Home der Administration Ihres Online Restaurants</seg></tuv>
+        </tu>
+
+        <tu tuid="p1_welcome_screen">
+            <tuv xml:lang="fr"><seg>Bienvenue sur l'application privée d'e-restaurant.eu. Cette plateforme vous permet de g&#233;rer le contenu affich&#233; concernant votre e-restaurant.<br />En fonction de votre rôle, vous trouverez dans les menus ci-contre et ci-dessus les modules nécessaires à la gestion administrative de votre e-Restaurant et trouverez: <ul><li>un <strong>Dashboard</strong> pour la gestion de vos statistiques.</li><li>un module de gestion de <strong>comptes utilisateurs</strong> et de configuration d'accès.</li><li>un module de gestion de votre ou vos <strong>e-Restaurant</strong>.</li><li>un module de gestion des <strong>commandes</strong> en ligne.</li><li>un module de gestion des <strong>réservations</strong>.</li><li>un module d'édition de <strong>la carte</strong> de votre e-Restaurant.</li><li>un module de gestion de <strong>contenu de présentation</strong> concernant votre e-Restaurant.</li><li>... et bien d'autres modules encore ...</li></ul>Il vous est possible d'utiliser le menu du haut de la page ainsi que le menu ci-contre pour naviguer dans les diff&#233;rents modules disponibles.<br />Selon le niveau d'accès dont vous disposez, il est possible que certains modules ne soient pas disponibles depuis votre compte.</seg></tuv>
+            <tuv xml:lang="de"><seg>Willkommen auf die Private e-restaurant.eu Anwendung. Diese Plattform ermöglicht Ihnen Daten Ihres e-Restaurants zu verwalten.<br />Je nach Zugriffsrolle finden Sie in den oben- und links-angezeigten Menüs Links zu Module für die Administrative Verwaltung der Daten Ihres e-Restaurants und finden darunter:<ul><li>einen <strong>Dashboard</strong> zum Verwalten der Statistics.</li><li>einen <strong>Benutzerkonten und Access Control</strong> Verwaltungsmodul.</li><li>einen e-Restaurant Verwaltungsmodul.</li><li>einen Modul für das Verwalten der <strong>Bestellungen und Lieferungen</strong>.</li><li>einen Modul für das Verwalten der <strong>Reservationen</strong>.</li><li>einen Modul zum Verwalten der <strong>Speisekarte</strong> Ihres e-Restaurants.</li><li>einen Modul zum Verwalten des <strong>Präsentationscontents</strong> Ihres e-Restaurants.</li><li>... und auch andere Module ...</li></ul>Sie können mit Hilfe der links- und oben- angezeigten Menüs in verschieden Module navigieren.<br />Je nach Zugriffslevel wird der Zugriff zu betroffenen Module für Ihren Benutzerkonto verweigert oder erlaubt.</seg></tuv>
+        </tu>
+
+        <tu tuid="h2_denied_screen">
+			<tuv xml:lang="fr"><seg>Erreur d'accès: Accès refusé</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriffsfehler: Zugriff verweigert</seg></tuv>
+        </tu>
+
+        <tu tuid="p1_denied_screen">
+            <tuv xml:lang="fr"><seg>L'accès à un module vous a été refusé, si cela se reproduit, veuillez en informer votre supérieur.<ul><li>Les droits d'accès sont gérés par le Manager, si vous estimez avoir besoin de l'accès à un module, veuillez lui faire parvenir une demande.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg>Der Zugriff auf einen der Module wurde Ihnen verweigert. Sollte dies öfters vorkommen, sollten Sie Ihren Vorgesetzten darüber informieren.<ul><li>Falls Sie der Meinung sind auf einem Modul Zugriff haben zu müssen, beanfragen Sie dies bitte bei dem Manager.</li></ul></seg></tuv>
+        </tu>
+
+        <tu tuid="order_num_title">
+			<tuv xml:lang="fr"><seg>facture nr.</seg></tuv>
+			<tuv xml:lang="de"><seg>rechnung nr.</seg></tuv>
+		</tu>
+
+        <tu tuid="delivery_num_title">
+			<tuv xml:lang="fr"><seg>livraison nr.</seg></tuv>
+			<tuv xml:lang="de"><seg>lieferung nr.</seg></tuv>
+		</tu>
+
+        <tu tuid="order_label_comments">
+			<tuv xml:lang="fr"><seg>Commentaire :</seg></tuv>
+			<tuv xml:lang="de"><seg>Kommentar :</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_orders">
+			<tuv xml:lang="fr"><seg>Suppression de commande(s)</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen von Bestellung(en)</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_orders">
+            <tuv xml:lang="fr"><seg>Il est important de noter certaines choses &#224; propos de la suppression de commandes:<br /><ul><li>La commande ne sera plus accessible depuis l'administration.</li><li>Le client ayant pris la commande sera toujours visible dans la gestion de la client&#232;le.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg>Beachten Sie folgende Eigenschaften beim L&#246;schen von Bestellungen:<br /><ul><li>Die Bestellung ist danach nicht mehr auf dem Back Office zu sehen.</li><li>Der Kunde der diese Bestellung erstellt hat, bleibt im Kundenbereich aufgelistet.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_orders">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des commandes enumer&#233;es ci-dessous: </seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Bestellungen: </seg></tuv>
+		</tu>
+        <tu tuid="txt_form_submit_delete_orders">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_cancel_delete_orders">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_orders">
+            <tuv xml:lang="fr"><seg><ul><li>Les commandes list&#233;es sur cette page sont des commandes prise en ligne.</li><li>Une commande est consid&#233;r&#233;e <strong>trait&#233;e</strong> lorsque vous cliquez dessus.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Die auf dieser Seite aufgelisteten Bestellungen wurden von Kunden online gespeichert.</li><li>Eine Bestellung wird als <strong>bearbeitet</strong> erkl&#228;rt wenn Sie drauf klicken.</li></ul></seg></tuv>
+		</tu>
+
+
+<!-- RESTAURANT MANAGEMENT -->
+        <tu tuid="txt_form_restaurant_legend">
+			<tuv xml:lang="fr"><seg>Configurez votre e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Konfigurieren Sie Ihr e-Restaurant</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_restaurant_settings_legend">
+			<tuv xml:lang="fr"><seg>Param&#234;tres g&#233;n&#233;raux</seg></tuv>
+			<tuv xml:lang="de"><seg>Allgemeine Einstellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_title">
+			<tuv xml:lang="fr"><seg>Titre</seg></tuv>
+			<tuv xml:lang="de"><seg>Titel</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_zipcode">
+			<tuv xml:lang="fr"><seg>Code postal</seg></tuv>
+			<tuv xml:lang="de"><seg>Postleitzahl</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_city">
+			<tuv xml:lang="fr"><seg>Ville</seg></tuv>
+			<tuv xml:lang="de"><seg>Stadt</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_address">
+			<tuv xml:lang="fr"><seg>Adresse</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_date_created">
+			<tuv xml:lang="fr"><seg>Date de cr&#233;ation</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_restaurant_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>&#196;nderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_restaurant_select_action_opt">
+			<tuv xml:lang="fr"><seg>Ne rien faire</seg></tuv>
+			<tuv xml:lang="de"><seg>Nichts machen</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_restaurant_select_actions">
+			<tuv xml:lang="fr"><seg>Pour la s&#233;lection :</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;r die Auswahl :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_restaurant_action_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_restaurant">
+			<tuv xml:lang="fr"><seg>Gestion de vos restaurants</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_restaurant">
+            <tuv xml:lang="fr"><seg><ul><li>Un e-restaurant repr&#233;sente un site web g&#233;rer avec le portail e-restaurant.eu.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Ein e-Restaurant ist eine Web-Andwendung.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_restaurant">
+			<tuv xml:lang="fr"><seg>Suppression de restaurants</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen von Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_restaurant">
+            <tuv xml:lang="fr"><seg>Il est important de noter certaines choses &#224; propos de la suppression de restaurants :<br /><ul><li>Si le nom de domaine de l'e-restaurant est toujours actif, la suppression du restaurant associ&#233; rend impossible la prise de commande.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg>Beachten Sie folgende Eigenschaften beim L&#246;schen von Restaurants :<br /><ul><li>Wenn die Domainname f&#252;r das Restaurant noch aktiv ist, wird das Bestellen durch das L&#246;schen des Restaurants unm&#246;glich.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_restaurant">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des restaurants enumer&#233;es ci-dessous: </seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Restaurants: </seg></tuv>
+		</tu>
+        <tu tuid="txt_form_submit_delete_restaurant">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_cancel_delete_restaurant">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_title">
+			<tuv xml:lang="fr"><seg>Nom du restaurant :</seg></tuv>
+			<tuv xml:lang="de"><seg>Restaurant Name :</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_description">
+			<tuv xml:lang="fr"><seg>Description :</seg></tuv>
+			<tuv xml:lang="de"><seg>Beschreibung :</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_address">
+            <tuv xml:lang="fr"><seg>Rue et Num&#233;ro :</seg></tuv>
+			<tuv xml:lang="de"><seg>Stra&#223;e und Nummer :</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_city_pair">
+			<tuv xml:lang="fr"><seg>Code postal et Ville :</seg></tuv>
+			<tuv xml:lang="de"><seg>Postleitzahl und Stadt :</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_country">
+			<tuv xml:lang="fr"><seg>Pays :</seg></tuv>
+			<tuv xml:lang="de"><seg>Land :</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_phone">
+			<tuv xml:lang="fr"><seg>Num. de T&#233;l&#233;phone :</seg></tuv>
+			<tuv xml:lang="de"><seg>Telefonnummer :</seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_email">
+			<tuv xml:lang="fr"><seg>Adresse e-mail :</seg></tuv>
+			<tuv xml:lang="de"><seg>E-Mail Adresse : </seg></tuv>
+		</tu>
+
+        <tu tuid="form_label_restaurant_numtav">
+			<tuv xml:lang="fr"><seg>Num&#233;ro de TVA :</seg></tuv>
+			<tuv xml:lang="de"><seg>Registernummer :</seg></tuv>
+        </tu>
+
+        <tu tuid="form_label_front_domain_name">
+			<tuv xml:lang="fr"><seg>Nom de domaine du Site Web:</seg></tuv>
+			<tuv xml:lang="de"><seg>Webseite Domainname :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_front_openingdays">
+			<tuv xml:lang="fr"><seg>Jours d'ouverture :</seg></tuv>
+			<tuv xml:lang="de"><seg>Offene Tage :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_front_openinghourspm">
+			<tuv xml:lang="fr"><seg>Heures d'ouverture (Apr&#232;s-midi):</seg></tuv>
+			<tuv xml:lang="de"><seg>&#214;ffnungszeiten (Nachmittag):</seg></tuv>
+		</tu>
+        <tu tuid="form_label_front_openinghoursam">
+			<tuv xml:lang="fr"><seg>Heures d'ouverture (Avant-midi):</seg></tuv>
+			<tuv xml:lang="de"><seg>&#214;ffnungszeiten (Vormittag):</seg></tuv>
+		</tu>
+        <tu tuid="form_label_front_deliveryhours">
+			<tuv xml:lang="fr"><seg>Heures de livraison :</seg></tuv>
+			<tuv xml:lang="de"><seg>Lieferzeiten :</seg></tuv>
+		</tu>
+        <tu tuid="txt_from_day">
+			<tuv xml:lang="fr"><seg>Du ..</seg></tuv>
+			<tuv xml:lang="de"><seg>Von ..</seg></tuv>
+		</tu>
+        <tu tuid="txt_to_day">
+			<tuv xml:lang="fr"><seg>Au ..</seg></tuv>
+			<tuv xml:lang="de"><seg>Bis ..</seg></tuv>
+		</tu>
+        <tu tuid="txt_from_hour">
+			<tuv xml:lang="fr"><seg>De ..</seg></tuv>
+			<tuv xml:lang="de"><seg>Von ..</seg></tuv>
+		</tu>
+        <tu tuid="txt_to_hour">
+			<tuv xml:lang="fr"><seg>&#192; ..</seg></tuv>
+			<tuv xml:lang="de"><seg>Bis ..</seg></tuv>
+		</tu>
+        <tu tuid="opt_country_belgium">
+			<tuv xml:lang="fr"><seg>Belgique</seg></tuv>
+			<tuv xml:lang="de"><seg>Belgien</seg></tuv>
+		</tu>
+        <tu tuid="opt_country_usa">
+			<tuv xml:lang="fr"><seg>&#201;tats-Unis</seg></tuv>
+			<tuv xml:lang="de"><seg>Vereinigten Staaten</seg></tuv>
+		</tu>
+        <tu tuid="opt_country_germany">
+			<tuv xml:lang="fr"><seg>Allemagne</seg></tuv>
+			<tuv xml:lang="de"><seg>Deutschland</seg></tuv>
+		</tu>
+        <tu tuid="opt_country_france">
+			<tuv xml:lang="fr"><seg>France</seg></tuv>
+			<tuv xml:lang="de"><seg>Frankreich</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_monday">
+			<tuv xml:lang="fr"><seg>Lundi</seg></tuv>
+			<tuv xml:lang="de"><seg>Montag</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_tuesday">
+			<tuv xml:lang="fr"><seg>Mardi</seg></tuv>
+            <tuv xml:lang="de"><seg>Dienstag</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_wednesday">
+			<tuv xml:lang="fr"><seg>Mercredi</seg></tuv>
+			<tuv xml:lang="de"><seg>Mittwoch</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_thursday">
+			<tuv xml:lang="fr"><seg>Jeudi</seg></tuv>
+			<tuv xml:lang="de"><seg>Donnerstag</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_friday">
+			<tuv xml:lang="fr"><seg>Vendredi</seg></tuv>
+            <tuv xml:lang="de"><seg>Freitag</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_saturday">
+			<tuv xml:lang="fr"><seg>Samedi</seg></tuv>
+			<tuv xml:lang="de"><seg>Samstag</seg></tuv>
+		</tu>
+        <tu tuid="opt_day_sunday">
+			<tuv xml:lang="fr"><seg>Dimanche</seg></tuv>
+			<tuv xml:lang="de"><seg>Sonntag</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_restaurant_edit">
+			<tuv xml:lang="fr"><seg>Coordonn&#233;es du restaurant</seg></tuv>
+            <tuv xml:lang="de"><seg>Restaurant Addressdaten</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_restaurant_edit">
+            <tuv xml:lang="fr"><seg><ul><li>Les donn&#233;es affich&#233;es ici sont &#233;galement affich&#233;es sur les factures et sur le site Web de votre restaurant.</li><li>Veuillez vous assurer que les donn&#233;es de contact de votre restaurant sont correctement renseign&#233;es.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Daten die auf dieser Seite angezeigt werden, werden auch auf die Rechnungen und die Webseite des Restaurants angezeigt.</li><li>Sorgen Sie bitte daf&#252;r dass die Kontaktdaten Ihres Restaurants vollst&#228;ndig ausgef&#252;llt wurden.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_settings">
+			<tuv xml:lang="fr"><seg>Gestion des param&#232;tres g&#233;n&#233;raux</seg></tuv>
+            <tuv xml:lang="de"><seg>Verwaltung der allgemeinen Einstellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_settings">
+            <tuv xml:lang="fr"><seg><ul><li>Les heures d'<strong>ouverture</strong> sont &#224; distingu&#233;s des heures de <strong>livraison</strong>.</li><li>La p&#233;riode d'heure de <strong>livraison</strong> correspond &#224; la p&#233;riode pendant laquelle les commandes sont possibles.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li><strong>&#214;ffnungszeiten</strong> unterscheiden sich von <strong>Lieferzeiten</strong>.</li><li>Der Zeitraum den Sie f&#252;r die <strong>Lieferungen</strong> einstellen entspricht dem Zeitraum in dem Kunden auf Ihrer Webseite Bestellungen erstellen k&#246;nnen.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_restaurant">
+			<tuv xml:lang="fr"><seg>Suppression de restaurants</seg></tuv>
+            <tuv xml:lang="de"><seg>Löschen von Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="action_addrestaurant">
+			<tuv xml:lang="fr"><seg>Ajouter un e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Einen e-Restaurant hinzufügen</seg></tuv>
+		</tu>
+
+
+<!-- CUSTOMERS MANAGEMENT -->
+        <tu tuid="txt_th_customer_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_customer_realname">
+			<tuv xml:lang="fr"><seg>Intitulé</seg></tuv>
+			<tuv xml:lang="de"><seg>Name</seg></tuv>
+		</tu>
+        <tu tuid="label_customer_realname">
+			<tuv xml:lang="fr"><seg>Nom et prénom :</seg></tuv>
+			<tuv xml:lang="de"><seg>Name und Vorname :</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_customer_address">
+			<tuv xml:lang="fr"><seg>Adresse</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_customer_zip_city">
+			<tuv xml:lang="fr"><seg>Ville</seg></tuv>
+			<tuv xml:lang="de"><seg>Stadt</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_customer_phone">
+			<tuv xml:lang="fr"><seg>Num. T&#233;l&#233;phone</seg></tuv>
+			<tuv xml:lang="de"><seg>Telefonnum.</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_customer_email">
+			<tuv xml:lang="fr"><seg>E-Mail</seg></tuv>
+			<tuv xml:lang="de"><seg>E-Mail</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_customer_orderscount">
+			<tuv xml:lang="fr"><seg>Nombre de commandes</seg></tuv>
+			<tuv xml:lang="de"><seg>Anzahl der Bestellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_customers">
+			<tuv xml:lang="fr"><seg>Gestion de la client&#232;le</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Kunden</seg></tuv>
+		</tu>
+
+
+<!-- USERS MANAGEMENT -->
+        <tu tuid="legend_user_restaurants">
+			<tuv xml:lang="fr"><seg>Droits d'accès aux données</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriffsrechte auf die Daten</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_realname">
+			<tuv xml:lang="fr"><seg>Nom et pr&#233;nom</seg></tuv>
+			<tuv xml:lang="de"><seg>Name und Vorname</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_login">
+			<tuv xml:lang="fr"><seg>Nom d'utilisateur</seg></tuv>
+            <tuv xml:lang="de"><seg>Benutzername</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_role">
+			<tuv xml:lang="fr"><seg>Rôle utilisateur</seg></tuv>
+            <tuv xml:lang="de"><seg>Benutzerrolle</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_email">
+			<tuv xml:lang="fr"><seg>Adresse e-mail</seg></tuv>
+            <tuv xml:lang="de"><seg>E-mail Adresse</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_date_created">
+			<tuv xml:lang="fr"><seg>Date de cr&#233;ation</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_user_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>&#196;nderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_legend">
+			<tuv xml:lang="fr"><seg>Ajouter un nouvel utilisateur</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;gen Sie einen neuen Benutzer hinzu</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_role">
+			<tuv xml:lang="fr"><seg>Rôle utilisateur :</seg></tuv>
+            <tuv xml:lang="de"><seg>Benutzerrolle :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_login">
+			<tuv xml:lang="fr"><seg>Nom d'utilisateur :</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzername :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_email">
+			<tuv xml:lang="fr"><seg>Adresse e-mail :</seg></tuv>
+			<tuv xml:lang="de"><seg>E-mail Adresse :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_realname">
+			<tuv xml:lang="fr"><seg>Nom et pr&#233;nom :</seg></tuv>
+			<tuv xml:lang="de"><seg>Name und Vorname :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_password">
+			<tuv xml:lang="fr"><seg>Mot de passe :</seg></tuv>
+			<tuv xml:lang="de"><seg>Passwort :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_password_confirm">
+			<tuv xml:lang="fr"><seg>Confirmation du mot de passe :</seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigung des Passworts :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_user_select_action_opt">
+			<tuv xml:lang="fr"><seg>Ne rien faire</seg></tuv>
+			<tuv xml:lang="de"><seg>Nichts machen</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_user_select_actions">
+			<tuv xml:lang="fr"><seg>Pour la s&#233;lection :</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;r die Auswahl :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_user_action_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_users">
+			<tuv xml:lang="fr"><seg>Gestion d'utilisateurs de la plateforme</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Benutzer dieser Anwendung</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_users">
+            <tuv xml:lang="fr"><seg><ul><li>Un utilisateur peut se connecter à l'application de gestion de votre e-restaurant.</li><li></li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le profil des utilisateurs concernés.</strong></li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Ein Benutzer kann sich auf der e-Restaurant Verwaltungsanwendung einloggen.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf den betroffenen Benutzerkonto(-ten).</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_users">
+			<tuv xml:lang="fr"><seg>Suppression d'utilisateurs</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen von Benutzer</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_users">
+            <tuv xml:lang="fr"><seg>Il est important de noter certaines choses &#224; propos de la suppression d'utilisateurs :<br /><ul><li>Si l'utilisateur disposait de droits d'accès pour un ou plusieurs restaurant(s), ceux-ci seront également supprimés.</li><li>Il n'est plus possible de réactiver un compte utilisateur après l'avoir supprimé.</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg>Beachten Sie folgende Eigenschaften beim L&#246;schen von Benutzern :<br /><ul><li>Falls der Benutzerkonto vor dem Löschen über Verwaltungsrechte bezüglich einem oder mehreren e-Restaurant(s) befügt werden diese auch gelöscht.</li><li>Es ist unmöglich einen Benutzerkonto wiederherzustellen nachdem es gelöscht wurde.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_users">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des comptes utilisateurs enumer&#233;s ci-dessous: </seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Benutzerkonten: </seg></tuv>
+		</tu>
+        <tu tuid="txt_form_submit_delete_user">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>L&#246;schen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_cancel_delete_user">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_users_adduser">
+			<tuv xml:lang="fr"><seg>Mise &#224; jour de compte utilisateur</seg></tuv>
+            <tuv xml:lang="de"><seg>Benutzerkonto Einstellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_users_adduser">
+            <tuv xml:lang="fr"><seg><ul><li>A l'aide du formulaire pr&#233;sent&#233; ci-dessous, il vous est possible de modifier le compte utilisateur s&#233;lectionn&#233;.</li><li>Le mot de passe de l'utilisateur n'est pas disponible depuis cette interface.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le compte utilisateur concerné.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Anhand des unten aufgef&#252;hrten Formulars k&#246;nnen Sie das ausgew&#228;hlte Benutzerkonto &#228;ndern.</li><li>Das Passwort eines Benutzers kann anhand dieser Seite nicht geändert werden.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf dem betroffenen Benutzerkonto.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="submit_adduser">
+			<tuv xml:lang="fr"><seg>Sauvegarder</seg></tuv>
+			<tuv xml:lang="de"><seg>Speichern</seg></tuv>
+		</tu>
+        <tu tuid="action_adduser">
+			<tuv xml:lang="fr"><seg>Ajouter un compte utilisateur</seg></tuv>
+			<tuv xml:lang="de"><seg>Einen Benutzerkonto hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_user_restaurants">
+			<tuv xml:lang="fr"><seg>Restaurant(s) accessible(s)</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugängliche Restaurant(s)</seg></tuv>
+		</tu>
+
+
+<!-- LOGIN MANAGEMENT -->
+        <tu tuid="label_form_login_identifier">
+			<tuv xml:lang="fr"><seg>Nom d'utilisateur : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzername : (*)</seg></tuv>
+        </tu>
+        <tu tuid="label_form_login_password">
+			<tuv xml:lang="fr"><seg>Mot de passe : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Passwort : (*)</seg></tuv>
+        </tu>
+        <tu tuid="h2_login">
+			<tuv xml:lang="fr"><seg>Authentification utilisateur</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzer Anmeldung</seg></tuv>
+        </tu>
+        <tu tuid="p_login">
+			<tuv xml:lang="fr"><seg><ul><li>L'authentification vous permet d'agir sur la plateforme d'apr&#232;s le r&#244;le qui vous est attribu&#233; par le g&#233;rant de l'application.</li><li>Un nom d'utilisateur ainsi qu'une mot de passe sont n&#233;cessaires &#224; l'authentification.</li><li>En cas de perte de mot de passe, il vous est possible de le r&#233;cup&#233;rer par le biais d'une demande au g&#233;rant de l'application.</li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Die Authentifizierung erm&#246;glicht Ihnen je nach Funktion &#252;ber die Anwendung zu agieren.</li><li>Ein Paar Benutzername und Passwort sind f&#252;r die Anmeldung notwendig.</li><li>Im Falle eines Verlustes des Passworts, k&#246;nnen Sie anhand einer Anfrage an den Anwendungsmanager Ihren Passwort wiederherstellent.</li></ul></seg></tuv>
+        </tu>
+
+
+<!-- ACL MANAGEMENT -->
+        <tu tuid="txt_th_acl_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_acl_resource">
+			<tuv xml:lang="fr"><seg>URI de la ressource</seg></tuv>
+			<tuv xml:lang="de"><seg>Resource-URI</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_acl_role">
+			<tuv xml:lang="fr"><seg>Rôles utilisateur</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzerrollen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_acl_right">
+			<tuv xml:lang="fr"><seg>Droit d'accès</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriffsrecht</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_acl_date_created">
+			<tuv xml:lang="fr"><seg>Date de création</seg></tuv>
+			<tuv xml:lang="de"><seg>Speicherdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_acl_date_updated">
+			<tuv xml:lang="fr"><seg>Date de modification</seg></tuv>
+			<tuv xml:lang="de"><seg>Änderungsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_acl_select_actions">
+			<tuv xml:lang="fr"><seg>Pour la sélection :</seg></tuv>
+			<tuv xml:lang="de"><seg>Für die Auswahl :</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_acl_select_action_opt">
+			<tuv xml:lang="fr"><seg>Ne rien faire</seg></tuv>
+			<tuv xml:lang="de"><seg>Nichts machen</seg></tuv>
+		</tu>
+        <tu tuid="txt_tf_acl_action_delete">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>Löschen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_acl">
+			<tuv xml:lang="fr"><seg>Gestion des droits d'accès</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Zugriffsrechte</seg></tuv>
+		</tu>
+        <tu tuid="action_addacl">
+			<tuv xml:lang="fr"><seg>Ajouter un nouveau droit d'accès</seg></tuv>
+			<tuv xml:lang="de"><seg>Hinzufügen eines neuen Zugriffrechtes</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_acl">
+            <tuv xml:lang="fr"><seg><ul><li>Les droits d'accès représente des permission d'accéder à une ressource précise.</li><li>Une ressource est identifiée selon son URI (p.e.: /default/index/index)</li></ul></seg></tuv>
+            <tuv xml:lang="de"><seg><ul><li>Eine Kategorie ist eine Gruppierung von Speisen auf der Speisekarte.</li><li>Es ist auch m&#246;glich eine Kategorie einer anderen zu unterordnen sodass eine Sub-Kategorien Hierarchie auf der Speisekarte aufgestellt wird.</li><li>(Beispiel: sub-Kategorien f&#252;r 'Desserts': Eis, Geb&#228;ck, etc.)</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_acls_addacl">
+			<tuv xml:lang="fr"><seg>Mise &#224; jour de droit d'accès</seg></tuv>
+            <tuv xml:lang="de"><seg>Zugriffsrecht Einstellungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_acls_addacl">
+            <tuv xml:lang="fr"><seg><ul><li>A l'aide du formulaire pr&#233;sent&#233; ci-dessous, il vous est possible de modifier le droit d'accès sélectionné.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur les droits des comptes utilisateurs concernés.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Anhand des unten aufgef&#252;hrten Formulars k&#246;nnen Sie das ausgew&#228;hlte Zugriffrecht &#228;ndern.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf den betroffenen Zugriffrechte der Benutzerkonten.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_legend">
+			<tuv xml:lang="fr"><seg>Ajouter un nouveau droit d'accès</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;gen Sie einen neuen Zugriffsrecht hinzu</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_resource">
+			<tuv xml:lang="fr"><seg>URI de la ressource :</seg></tuv>
+			<tuv xml:lang="de"><seg>Resource-URI :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_role">
+			<tuv xml:lang="fr"><seg>Rôle utilisateur :</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzerrolle :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_action">
+			<tuv xml:lang="fr"><seg>Privilèges :</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriffstyp :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_is_allowed">
+			<tuv xml:lang="fr"><seg>Permission :</seg></tuv>
+			<tuv xml:lang="de"><seg>Recht :</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_allow">
+			<tuv xml:lang="fr"><seg>Accès autorisé</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriff erlaubt</seg></tuv>
+		</tu>
+        <tu tuid="txt_form_acl_deny">
+			<tuv xml:lang="fr"><seg>Accès refusé</seg></tuv>
+			<tuv xml:lang="de"><seg>Zugriff verweigert</seg></tuv>
+		</tu>
+
+
+<!-- BOOKINGS MANAGEMENT -->
+
+        <tu tuid="object_count_places">
+			<tuv xml:lang="fr"><seg>Places</seg></tuv>
+			<tuv xml:lang="de"><seg>Plätze</seg></tuv>
+		</tu>
+        <tu tuid="free_at">
+			<tuv xml:lang="fr"><seg>libre à</seg></tuv>
+			<tuv xml:lang="de"><seg>verfügbar um</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_list_booking">
+			<tuv xml:lang="fr"><seg>Gestion des réservations</seg></tuv>
+			<tuv xml:lang="de"><seg>Buchungen Verwaltung</seg></tuv>
+		</tu>
+        <tu tuid="h2_bookings_addbooking">
+			<tuv xml:lang="fr"><seg>Mise à jour d'une réservation</seg></tuv>
+			<tuv xml:lang="de"><seg>Einstellungen der Buchung</seg></tuv>
+		</tu>
+        <tu tuid="p_bookings_addbooking">
+			<tuv xml:lang="fr"><seg><ul><li>Cette interface vous permet d'enregistrer les données concernant une réservation.</li><li><strong>La sauvegarde ou la modification de réservation ont un effet direct sur les disponibilités du restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Diese Interface ermöglicht es Daten bezüglich einer Buchung zu speichern.</li><li>Das Speichern von Buchungen hat einen direkten Einfluß auf die Buchungsmöglichkeiten des Restaurants.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="legend_bookings_restaurant">
+			<tuv xml:lang="fr"><seg>Objet de la réservation</seg></tuv>
+			<tuv xml:lang="de"><seg>Objekt der Buchung</seg></tuv>
+		</tu>
+        <tu tuid="p_bookings_restaurant">
+			<tuv xml:lang="fr"><seg><ol><li>Tout d'abord vous devez sélectionner le restaurant concerné si celui-ci n'est pas auto-sélectionné.</li><li>Vous devez ensuite configurer l'objet concerné par la réservation. (Salle / Table / Client)</li><li>Enfin, vous devez configurez correctement les dates de réservation et sélectionner, selon la disponibilité d'objets, un objet qui sera ainsi reservé.</li></ol></seg></tuv>
+			<tuv xml:lang="de"><seg><ol><li>Als erstes müssen Sie, falls es nicht automatisch gemacht wurde, einen Restaurant aussuchen für das die Buchung gilt.</li><li>Als nächstes werden Sie die Daten bezüglich des Objektes der Buchung konfigurieren müssen. (Raum / Tisch / Kunde)</li><li>Anschließlich, müssen Sie die Datum und Uhrzeit Daten bezüglich der Buchung einstellen und die je nach Verfügbarkeit von Objekte, einen Objekt zum Buchen auswählen.</li></ol></seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_restaurant">
+			<tuv xml:lang="fr"><seg><strong>Restaurant concerné :</strong></seg></tuv>
+			<tuv xml:lang="de"><seg><strong>Betroffenes Restaurant :</strong></seg></tuv>
+		</tu>
+        <tu tuid="legend_bookings_object">
+			<tuv xml:lang="fr"><seg>Objet réservé</seg></tuv>
+			<tuv xml:lang="de"><seg>Gebuchtes Objekt</seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_booking_type">
+			<tuv xml:lang="fr"><seg>Type d'objet :</seg></tuv>
+			<tuv xml:lang="de"><seg>Typ des Objektes :</seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_booking_object">
+			<tuv xml:lang="fr"><seg><strong>Choix de l'objet :</strong></seg></tuv>
+			<tuv xml:lang="de"><seg><strong>Wahl des Objektes:</strong></seg></tuv>
+		</tu>
+        <tu tuid="legend_bookings_customer">
+			<tuv xml:lang="fr"><seg>Client concerné</seg></tuv>
+			<tuv xml:lang="de"><seg>Betroffener Kunde</seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_customer">
+			<tuv xml:lang="fr"><seg>Nom du client :</seg></tuv>
+			<tuv xml:lang="de"><seg>Namen des Kunden :</seg></tuv>
+		</tu>
+        <tu tuid="opt_booking_type_room">
+			<tuv xml:lang="fr"><seg>Réservation de salle</seg></tuv>
+			<tuv xml:lang="de"><seg>Raum Buchung</seg></tuv>
+		</tu>
+        <tu tuid="opt_booking_type_table">
+			<tuv xml:lang="fr"><seg>Réservation de table</seg></tuv>
+			<tuv xml:lang="de"><seg>Tisch Buchung</seg></tuv>
+		</tu>
+        <tu tuid="legend_bookings_data">
+			<tuv xml:lang="fr"><seg>Dates et heure</seg></tuv>
+			<tuv xml:lang="de"><seg>Datum und Uhrzeit</seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_booking_count_people">
+			<tuv xml:lang="fr"><seg>Nombre de personne :</seg></tuv>
+			<tuv xml:lang="de"><seg>Anzahl der Personnen :</seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_booking_book_start">
+			<tuv xml:lang="fr"><seg>Début de la réservation :</seg></tuv>
+			<tuv xml:lang="de"><seg>Startdatum der Buchung :</seg></tuv>
+		</tu>
+        <tu tuid="label_bookings_booking_book_end">
+			<tuv xml:lang="fr"><seg>Fin de la réservation :</seg></tuv>
+			<tuv xml:lang="de"><seg>Enddatum der Buchung :</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_type">
+			<tuv xml:lang="fr"><seg>Type</seg></tuv>
+			<tuv xml:lang="de"><seg>Typ</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_restaurant">
+			<tuv xml:lang="fr"><seg>eRestaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>eRestaurant</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_customer">
+			<tuv xml:lang="fr"><seg>Client</seg></tuv>
+			<tuv xml:lang="de"><seg>Kunde</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_count_people">
+			<tuv xml:lang="fr"><seg>Visiteurs</seg></tuv>
+			<tuv xml:lang="de"><seg>Besucher</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_booked_object">
+			<tuv xml:lang="fr"><seg>Objet réservé</seg></tuv>
+			<tuv xml:lang="de"><seg>Gebuchtes objekt</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_date_book_start">
+			<tuv xml:lang="fr"><seg>Date de début</seg></tuv>
+			<tuv xml:lang="de"><seg>Anfangsdatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_date_book_end">
+			<tuv xml:lang="fr"><seg>Date de fin</seg></tuv>
+			<tuv xml:lang="de"><seg>Endedatum</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_booking_id">
+			<tuv xml:lang="fr"><seg>ID</seg></tuv>
+			<tuv xml:lang="de"><seg>ID</seg></tuv>
+		</tu>
+        <tu tuid="action_addbooking">
+			<tuv xml:lang="fr"><seg>Ajouter une réservation</seg></tuv>
+			<tuv xml:lang="de"><seg>Eine Buchung hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="h3_bookings_steps">
+			<tuv xml:lang="fr"><seg>Étapes à suivre</seg></tuv>
+			<tuv xml:lang="de"><seg>Prozess Etappen</seg></tuv>
+		</tu>
+        <tu tuid="warning_availability_match">
+			<tuv xml:lang="fr"><seg>Les disponibilités pour les dates sélectionnées ne correspondent pas aux données souhaitées du client, veuillez lui faire part des possibilités listées ci-dessous :</seg></tuv>
+			<tuv xml:lang="de"><seg>Die derzeitlichen Verfügbarkeiten erlauben es wegen der Datum und Uhrzeit nicht dem Kunden sein Wunsch zu erfüllen, schlagen Sie Ihn folgende Möglichkeiten vor :</seg></tuv>
+		</tu>
+        <tu tuid="error_availability_match">
+			<tuv xml:lang="fr"><seg>Cette réservation n'est pas possible. Aucun objet n'est disponible pour les dates sélectionnées.<br />Veuillez vérifier l'exactitude des dates sélectionnées et estimez la possibilité d'organiser d'autres dates avec le client (demain, après-demain).</seg></tuv>
+			<tuv xml:lang="de"><seg>Diese Buchung kann nicht erstellt werden, es sind keine Objekte zu der Zeit verfügbar.<br />Stellen Sie sicher dass die Datum und Uhrzeit Daten korrekt ausgefüllt sind und erlautern Sie dem Kunden andere Daten (morgen, übermorgen).</seg></tuv>
+		</tu>
+        <tu tuid="button_check_availability">
+			<tuv xml:lang="fr"><seg>Vérifier la disponibilité</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Verfügbarkeit prüfen</seg></tuv>
+		</tu>
+        <tu tuid="h4_availability_response">
+			<tuv xml:lang="fr"><seg>Résultats de disponibilité :</seg></tuv>
+			<tuv xml:lang="de"><seg>Verfügbarkeitsergebnis :</seg></tuv>
+		</tu>
+        <tu tuid="require_select_availability">
+			<tuv xml:lang="fr"><seg>Veuillez sélectionner un objet disponible afin de pouvoir confirmer la réservation.</seg></tuv>
+			<tuv xml:lang="de"><seg>Suchen Sie bitte einen verfügbaren Objekt sodass Sie die Buchung bestätigen können.</seg></tuv>
+		</tu>
+
+
+<!-- ROOMS MANAGEMENT -->
+        <tu tuid="txt_h2_list_rooms">
+			<tuv xml:lang="fr"><seg>Gestion des salles du restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Räume des Restaurants</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_rooms">
+			<tuv xml:lang="fr"><seg><ul><li>Une salle de restaurant repr&#233;sente une salle d'accueil physique de votre restaurant.</li><li>Si votre restaurant disposent de plusieurs salles, ils vous est possible de configurer celle-ci pour votre e-restaurant afin que les réservations soient correctement organisées.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Ein Raum Ihres Restaurants entspricht dem materiellen Raum der Ihren Restaurant zur Verfügung steht.</li><li>Wenn Sie für Ihr Restaurant über mehrere Räume verfügen ist es Ihnen möglich diese im e-Restaurant so zu konfigurieren dass die Buchungen richtig organisiert sind.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="action_addroom">
+			<tuv xml:lang="fr"><seg>Ajouter une salle de restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Einen Raum hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_room_title">
+			<tuv xml:lang="fr"><seg>Nom de la salle</seg></tuv>
+			<tuv xml:lang="de"><seg>Name des Raumes</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_room_restaurant">
+			<tuv xml:lang="fr"><seg>e-Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>e-Restaurant</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_room_is_bookable">
+			<tuv xml:lang="fr"><seg>Réservations</seg></tuv>
+			<tuv xml:lang="de"><seg>Buchungen</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_room_edit">
+			<tuv xml:lang="fr"><seg>Mise à jour et création de salle de restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung und Erstellung von Restaurant Räume</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_room_edit">
+			<tuv xml:lang="fr"><seg><ul><li>Une salle de restaurant repr&#233;sente une salle d'accueil physique de votre restaurant.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Ein Raum Ihres Restaurants entspricht dem materiellen Raum der Ihren Restaurant zur Verfügung steht.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_form_room_legend">
+			<tuv xml:lang="fr"><seg>Données de la salle</seg></tuv>
+			<tuv xml:lang="de"><seg>Daten des Raumes</seg></tuv>
+		</tu>
+        <tu tuid="form_label_room_restaurant">
+			<tuv xml:lang="fr"><seg>e-Restaurant :</seg></tuv>
+			<tuv xml:lang="de"><seg>e-Restaurant :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_room_title">
+			<tuv xml:lang="fr"><seg>Nom de la salle :</seg></tuv>
+			<tuv xml:lang="de"><seg>Name des Raumes :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_room_is_bookable">
+			<tuv xml:lang="fr"><seg>Réservations :</seg></tuv>
+			<tuv xml:lang="de"><seg>Buchungen :</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_room">
+			<tuv xml:lang="fr"><seg>Suppression de salle de restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Löschen von Restaurant Räume</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_room">
+			<tuv xml:lang="fr"><seg><ul><li>Une salle de restaurant repr&#233;sente une salle d'accueil physique de votre restaurant.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Ein Raum Ihres Restaurants entspricht dem materiellen Raum der Ihren Restaurant zur Verfügung steht.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_room">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des salles enumer&#233;es ci-dessous :</seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Räume :</seg></tuv>
+		</tu>
+        <tu tuid="h4_room_tables">
+			<tuv xml:lang="fr"><seg>Organisation de la salle</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung des Raumes</seg></tuv>
+		</tu>
+        <tu tuid="p_room_organisator">
+			<tuv xml:lang="fr"><seg><ul><li>Ci-dessous vous trouverez la représentation de la salle.</li><li>Vous pouvez déplacer les tables selon la représentation la plus proche de la réalité pour atteindre une meilleure efficacité.</li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Hier finden Sie eine Bezeichnung der Raumordnung.</li><li>Sie können Tische bewegen um der realen Raumordnung nach zu machen und damit eine bessere Organisation zu sichern.</li></ul></seg></tuv>
+		</tu>
+        <tu tuid="table_default_title">
+			<tuv xml:lang="fr"><seg>Table</seg></tuv>
+			<tuv xml:lang="de"><seg>Tisch</seg></tuv>
+		</tu>
+
+
+<!-- TABLES MANAGEMENT -->
+        <tu tuid="txt_h2_list_tables">
+			<tuv xml:lang="fr"><seg>Gestion des Tables</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung der Tische</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_list_tables">
+			<tuv xml:lang="fr"><seg><ul><li>Une table repr&#233;sente une table physique de votre restaurant.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Ein Tisch entspricht dem materiellen Tisch der Ihren Restaurant zur Verfügung steht.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="action_addtable">
+			<tuv xml:lang="fr"><seg>Créer une nouvelle table</seg></tuv>
+			<tuv xml:lang="de"><seg>Einen neuen Tisch hinzufügen</seg></tuv>
+		</tu>
+        <tu tuid="action_saveroomorganisation">
+			<tuv xml:lang="fr"><seg>Sauvegarder la disposition</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Raumordnung speichern</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_table_room">
+			<tuv xml:lang="fr"><seg>Nom de la salle</seg></tuv>
+			<tuv xml:lang="de"><seg>Name des Raumes</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_table_title">
+			<tuv xml:lang="fr"><seg>Identifiant</seg></tuv>
+			<tuv xml:lang="de"><seg>Identifier</seg></tuv>
+		</tu>
+        <tu tuid="txt_th_table_count_places">
+			<tuv xml:lang="fr"><seg>Nombre de places</seg></tuv>
+			<tuv xml:lang="de"><seg>Anzahl der Plätze</seg></tuv>
+        </tu>
+        <tu tuid="txt_h2_table_edit">
+			<tuv xml:lang="fr"><seg>Mise à jour et création de table</seg></tuv>
+			<tuv xml:lang="de"><seg>Verwaltung und Erstellung von Tische</seg></tuv>
+		</tu>
+        <tu tuid="txt_p_table_edit">
+			<tuv xml:lang="fr"><seg><ul><li>Une table repr&#233;sente une table physique de votre restaurant.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Ein Tisch entspricht dem materiellen Tisch der Ihren Restaurant zur Verfügung steht.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_form_table_legend">
+			<tuv xml:lang="fr"><seg>Données de la table</seg></tuv>
+			<tuv xml:lang="de"><seg>Daten des Tisches</seg></tuv>
+		</tu>
+        <tu tuid="form_label_table_room">
+			<tuv xml:lang="fr"><seg>Salle :</seg></tuv>
+			<tuv xml:lang="de"><seg>Raum :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_table_number">
+			<tuv xml:lang="fr"><seg>Identifiant :</seg></tuv>
+			<tuv xml:lang="de"><seg>Identifier :</seg></tuv>
+		</tu>
+        <tu tuid="form_label_table_count_places">
+			<tuv xml:lang="fr"><seg>Nombre de places :</seg></tuv>
+			<tuv xml:lang="de"><seg>Anzahl der Plätze :</seg></tuv>
+		</tu>
+        <tu tuid="txt_h2_delete_table">
+			<tuv xml:lang="fr"><seg>Suppression de table</seg></tuv>
+			<tuv xml:lang="de"><seg>Löschen von Tische</seg></tuv>
+		</tu>
+        <tu tuid="txt_p1_delete_table">
+			<tuv xml:lang="fr"><seg><ul><li>Une table repr&#233;sente table physique de votre restaurant.</li><li><strong>La modification de param&#232;tres sur cette page a un effet direct sur le site web de votre restaurant.</strong></li></ul></seg></tuv>
+			<tuv xml:lang="de"><seg><ul><li>Ein Tisch entspricht dem materiellen Tisch der Ihren Restaurant zur Verfügung steht.</li><li><strong>&#196;nderungen auf dieser Seite haben einen direkten Einflu&#223; auf die Webseite Ihres Restaurants.</strong></li></ul></seg></tuv>
+		</tu>
+        <tu tuid="txt_p2_delete_table">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la suppression des tables enumer&#233;es ci-dessous :</seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie bitte das L&#246;schen der unten aufgelisteten Tische :</seg></tuv>
+		</tu>
+        <tu tuid="txt_info_room_table_save">
+			<tuv xml:lang="fr"><seg>La table de salle a été mise à jour avec succès.</seg></tuv>
+			<tuv xml:lang="de"><seg>Der Tisch wurde erfolgreich gespeichert.</seg></tuv>
+		</tu>
+
+	</body>
+</tmx>

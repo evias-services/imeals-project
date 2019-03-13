@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)\.(cgi|js|ico|gif|jpg|png|css|htc|rdf|xpi|src|pdf|swf|xml)$ public/$1.$2 [NC,L]
+    RewriteRule !\.(cgi|js|ico|gif|jpg|png|css|htc|rdf|xpi|src|pdf|swf|xml)$ public/index.php [NC,L]
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+
+    ErrorDocument 404 /public/index.php
+</IfModule>

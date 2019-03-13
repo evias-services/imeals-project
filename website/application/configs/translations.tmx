@@ -1,0 +1,327 @@
+<?xml version="1.0" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+	<header creationtoolversion="1.0.0"
+			datatype="winres"
+			segtype="sentence"
+			adminlang="fr" srclang="fr"
+			o-tmf="abc"
+			creationtool="XYZTool">
+	</header>
+	<body>
+
+        <tu tuid="website_title">
+			<tuv xml:lang="fr"><seg>Restaurant en ligne</seg></tuv>
+			<tuv xml:lang="de"><seg>Online Restaurant</seg></tuv>
+		</tu>
+
+        <tu tuid="website_title2">
+			<tuv xml:lang="fr"><seg>Commande en ligne ou par telephone</seg></tuv>
+			<tuv xml:lang="de"><seg>Online und Telefon-Bestellungen</seg></tuv>
+		</tu>
+
+        <tu tuid="cart_title">
+			<tuv xml:lang="fr"><seg>Votre commande en ligne</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihre Online-Bestellung</seg></tuv>
+		</tu>
+
+        <tu tuid="menu_meal_small_desc">
+			<tuv xml:lang="fr"><seg>Ingr&#233;dients :</seg></tuv>
+			<tuv xml:lang="de"><seg>Zutaten :</seg></tuv>
+		</tu>
+
+        <tu tuid="h2_col1">
+			<tuv xml:lang="fr"><seg>Commandes en ligne</seg></tuv>
+			<tuv xml:lang="de"><seg>Online Bestellungen</seg></tuv>
+		</tu>
+        <tu tuid="h2_col2">
+			<tuv xml:lang="fr"><seg>Livraisons</seg></tuv>
+			<tuv xml:lang="de"><seg>Lieferungen</seg></tuv>
+		</tu>
+        <tu tuid="h2_col3">
+			<tuv xml:lang="fr"><seg>Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Restaurant</seg></tuv>
+		</tu>
+        <tu tuid="p_col1">
+			<tuv xml:lang="fr"><seg>Il vous est possible de commander des pl&#226;ts en ligne en cliquant sur les pl&#226;ts desir&#233;s sur le menu.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie k&#246;nnen Speisen direkt Online bestellen indem Sie auf das Men&#252; die Speisen zu ihrem Wahrenkorb hinzuf&#252;gen.</seg></tuv>
+		</tu>
+        <tu tuid="p_col2">
+			<tuv xml:lang="fr"><seg>Nous livrons &#224; La Calamine, Hergenrath et Moresnet-Chapelle, Neu-Moresnet, Gemmenich et Montzen. Moyennant frais de livraison pour Neu-Moresnet, Gemmenich et Montzen.</seg></tuv>
+			<tuv xml:lang="de"><seg>Wir liefern nach Kelmis, Hergenrath, Moresnet-Chapelle, Neu-Moresnet, Gemmenich und Montzen. Fahrtkosten sind f&#252;r Neu-Moresnet, Gemmenich und Montzen von Ihnen auszuzahlen.</seg></tuv>
+		</tu>
+        <tu tuid="p_col3">
+			<tuv xml:lang="fr"><seg>Notre restaurant est ouvert du Mardi au Dimanche de 11h a 14h30 et 17h00 à 23h00. Vous pouvez &#233;galement nous joindre par t&#233;l&#233;phone au 003287/880 200. Le restaurant est ferm&#233; le lundi.</seg></tuv>
+			<tuv xml:lang="de"><seg>Unser Restaurant ist von Dienstag auf Sonntag von 11 Uhr bis 14 Uhr 30 und von 17 Uhr bis 23 Uhr ge&#246;ffnet. Sie k&#246;nnen uns auch telefonisch an die 003287/880 200 erreichen. Das Restaurant ist Montags geschlossen.</seg></tuv>
+		</tu>
+        <tu tuid="cart_no_items">
+			<tuv xml:lang="fr"><seg>Vous n'avez pas encore de pl&#226;ts dans votre panier. Cliquez sur un pl&#226;t pour l'ajouter au panier et confirmez votre panier en cliquant sur le bouton Commander.</seg></tuv>
+			<tuv xml:lang="de"><seg>Sie haben noch keine Speisen in Ihrem Wahrenkorb. Klicken Sie auf Speisen um Sie in Ihrem Wahrenkorb hinzu zu f&#252;gen und best&#228;tigen Sie anschliessend Ihre Bestellung.</seg></tuv>
+		</tu>
+        <tu tuid="mandatory_field_missing">
+			<tuv xml:lang="fr"><seg>Veuillez remplir les champs obligatoires marqu&#233;s d'un ast&#233;risque (*) ainsi qu'un num&#233;ro de t&#233;l&#233;phone ou une adresse e-mail.</seg></tuv>
+			<tuv xml:lang="de"><seg>F&#252;llen Sie bitte alle verpflichtet Felder die mit einem Stern markiert sind (*) und geben Sie eine Telefonnummer oder eine E-Mail Adresse ein.</seg></tuv>
+		</tu>
+
+        <tu tuid="missing_contact_information">
+			<tuv xml:lang="fr"><seg>Veuillez indiquer soit un num&#233;ro de t&#233;l&#233;phone, soit une adresse e-mail afin que nous puissions vous joindre.</seg></tuv>
+			<tuv xml:lang="de"><seg>Geben Sie bitte eine Telefonnummer oder eine E-Mail Adresse ein, sodass wir Sie erreichen k&#246;nnen.</seg></tuv>
+		</tu>
+
+        <tu tuid="error_confirm_cart_retry">
+			<tuv xml:lang="fr"><seg>Votre commande n'a pas pu &#234;tre confirm&#233;e, veuillez r&#233;essayer.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihre Bestellung konnte nicht best&#228;tigt werden, versuchen Sie es bitte nochmal.</seg></tuv>
+		</tu>
+
+        <tu tuid="error_clear_cart">
+			<tuv xml:lang="fr"><seg>Votre panier n'a pas pu &#234;tre vid&#233;, veuillez r&#233;essayer.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihr Warenkorb konnte nicht geleehrt werden, versuchen Sie es bitte nochmal.</seg></tuv>
+		</tu>
+
+        <tu tuid="msg_clear_cart">
+			<tuv xml:lang="fr"><seg>Votre panier est maintenant vide.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihr Warenkorb wurde geleert.</seg></tuv>
+		</tu>
+        <tu tuid="msg_confirm_meal_order">
+			<tuv xml:lang="fr"><seg>Veuillez confirmer la commande de ce pl&#226;t en cliquant sur le bouton 'Ajouter'.</seg></tuv>
+			<tuv xml:lang="de"><seg>Bitte best&#228;tigen Sie die Bestellung dieser Speise indem Sie den 'Zum Warenkorb' Knopf dr&#252;cken.</seg></tuv>
+		</tu>
+        <tu tuid="button_addtocart">
+			<tuv xml:lang="fr"><seg>Ajouter</seg></tuv>
+			<tuv xml:lang="de"><seg>Zum Warenkorb</seg></tuv>
+		</tu>
+        <tu tuid="button_canceladdtocart">
+			<tuv xml:lang="fr"><seg>Annuler</seg></tuv>
+			<tuv xml:lang="de"><seg>Abbrechen</seg></tuv>
+		</tu>
+
+        <!-- NAVIGATION LINKS -->
+		<tu tuid="txt_mod_link_home">
+			<tuv xml:lang="fr"><seg>Accueil</seg></tuv>
+			<tuv xml:lang="de"><seg>Home</seg></tuv>
+		</tu>
+		<tu tuid="txt_mod_link_menu">
+			<tuv xml:lang="fr"><seg>La carte</seg></tuv>
+			<tuv xml:lang="de"><seg>Die Speisekarte</seg></tuv>
+		</tu>
+		<tu tuid="txt_mod_link_offers">
+			<tuv xml:lang="fr"><seg>Offres de la semaine</seg></tuv>
+			<tuv xml:lang="de"><seg>Angebot der Woche</seg></tuv>
+		</tu>
+		<tu tuid="txt_mod_link_orders">
+			<tuv xml:lang="fr"><seg>Commande en ligne</seg></tuv>
+			<tuv xml:lang="de"><seg>Online Bestellung</seg></tuv>
+		</tu>
+		<tu tuid="txt_mod_link_restaurant">
+			<tuv xml:lang="fr"><seg>Restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Restaurant</seg></tuv>
+		</tu>
+
+        <!-- HOME SCREEN -->
+        <tu tuid="home_scr_h1">
+			<tuv xml:lang="fr"><seg>Pizzeria Da Antonio</seg></tuv>
+			<tuv xml:lang="de"><seg>Pizzeria Da Antonio</seg></tuv>
+ 		</tu>
+        <tu tuid="home_scr_p1">
+			<tuv xml:lang="fr"><seg>Bienvenu(e) sur le site de la Pizzeria Da Antonio. </seg></tuv>
+			<tuv xml:lang="de"><seg>Willkommen auf die Webseite der Pizzeria Da Antonio. </seg></tuv>
+		</tu>
+        <tu tuid="home_scr_h2_online_order">
+			<tuv xml:lang="fr"><seg>Commandez en ligne !!</seg></tuv>
+			<tuv xml:lang="de"><seg>Bestellen Sie Online !!</seg></tuv>
+ 		</tu>
+        <tu tuid="home_scr_p2">
+            <tuv xml:lang="fr"><seg>Il vous est possible de commander des pl&#226;ts depuis ici a partir d'un montant minimum de 10,- euro. Les commandes sont trait&#233;es pour les villes suivantes: La Calamine, Hergenrath, Moresnet-Chapelle, Neu-Moresnet et Gemmenich. Moyennant des frais additionnels pour les deux derniers.</seg></tuv>
+            <tuv xml:lang="de"><seg>Sie k&#246;nnen von dieser Seite aus Speisen zur Lieferung ab einen Mindestbestellwert von 10,- Euro bestellen. Folgende Dorfe werden geliefert: Kelmis, Hergenrath, Moresnet-Chapelle, Neu-Moresnet und Gemmenich. Zus&#228;tzliche Kosten m&#252;ssen Sie fuer die zwei letzternannten jeweils von 1,- Euro bis zu 2,- Euro f&#252;r Gemmenich auszahlen.</seg></tuv>
+        </tu>
+        <tu tuid="home_scr_h2_openings">
+			<tuv xml:lang="fr"><seg>Heures d'ouvertures</seg></tuv>
+			<tuv xml:lang="de"><seg>&#214;ffnungszeiten</seg></tuv>
+ 		</tu>
+        <tu tuid="home_scr_p3">
+            <tuv xml:lang="fr"><seg>Nous sommes ouvert du mardi au dimanche de 17h00 a 23h00 et fermons le lundi.</seg></tuv>
+            <tuv xml:lang="de"><seg>Wir sind von Dienstag bis Sonntag von 17u.00 bis 23u.00 ge&#246;ffnet und Montags ist geschlossen.</seg></tuv>
+        </tu>
+        <tu tuid="home_scr_h2_images">
+			<tuv xml:lang="fr"><seg>Photos de notre restaurant</seg></tuv>
+			<tuv xml:lang="de"><seg>Fotos von unserem Restaurant</seg></tuv>
+ 		</tu>
+        <tu tuid="txt_cart_meals_title">
+			<tuv xml:lang="fr"><seg>Pl&#226;ts</seg></tuv>
+			<tuv xml:lang="de"><seg>Speisen</seg></tuv>
+ 		</tu>
+        <tu tuid="txt_cart_cnt_title">
+			<tuv xml:lang="fr"><seg>Quantit&#233;</seg></tuv>
+			<tuv xml:lang="de"><seg>Anzahl</seg></tuv>
+ 		</tu>
+        <tu tuid="txt_cart_price_title">
+			<tuv xml:lang="fr"><seg>Prix Unitaire</seg></tuv>
+			<tuv xml:lang="de"><seg>Einzelpreis</seg></tuv>
+ 		</tu>
+        <tu tuid="submit_confirm_cart">
+			<tuv xml:lang="fr"><seg>Commander</seg></tuv>
+			<tuv xml:lang="de"><seg>Bestellen</seg></tuv>
+ 		</tu>
+        <tu tuid="cart_total_label">
+			<tuv xml:lang="fr"><seg>Total</seg></tuv>
+			<tuv xml:lang="de"><seg>Gesamtbetrag</seg></tuv>
+ 		</tu>
+
+        <tu tuid="h1_send_cart">
+			<tuv xml:lang="fr"><seg>Cordonn&#233;es pour la livraison</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse f&#252;r die Lieferung</seg></tuv>
+        </tu>
+
+        <tu tuid="p_send_cart">
+			<tuv xml:lang="fr"><seg>Veuillez entrer vos coordonn&#233;es pour la livraison. D'apr&#232;s l'endroit indiqu&#233;, il faut compter un temps d'attente comprenant le d&#233;placement du livreur. Les frais de livraisons ne sont pas compris dans le prix de la commande.</seg></tuv>
+			<tuv xml:lang="de"><seg>Geben Sie bitte Ihre Adresse f&#252;r die Lieferung an. Je nach Ort der Lieferung, kann sich die Wartezeit verl&#228;ngern. Die Fahrtkosten sind dem Preis der Bestellung NICHT inbegriffen.</seg></tuv>
+        </tu>
+
+        <tu tuid="legend_customer_form">
+			<tuv xml:lang="fr"><seg>Adresse</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_name">
+			<tuv xml:lang="fr"><seg>Nom et pr&#233;nom : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Name und Vorname : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_phone">
+			<tuv xml:lang="fr"><seg>Numero de t&#233;l&#233;phone : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Telefonnummer : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_email">
+			<tuv xml:lang="fr"><seg>Adresse e-mail :</seg></tuv>
+			<tuv xml:lang="de"><seg>E-Mail Adresse :</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_city">
+			<tuv xml:lang="fr"><seg>Code postal, lieu : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Postleitzahl, Ort : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_address">
+			<tuv xml:lang="fr"><seg>Adresse : (*)</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse : (*)</seg></tuv>
+        </tu>
+
+        <tu tuid="label_customer_comment">
+			<tuv xml:lang="fr"><seg>Informations compl&#233;mentaires :</seg></tuv>
+			<tuv xml:lang="de"><seg>Zus&#228;tsliche Informationen :</seg></tuv>
+        </tu>
+
+        <tu tuid="submit_customer_form">
+			<tuv xml:lang="fr"><seg>Aper&#231;u de votre commande</seg></tuv>
+			<tuv xml:lang="de"><seg>Vorschau der Bestellung</seg></tuv>
+        </tu>
+
+        <tu tuid="confirm_cart_submit">
+			<tuv xml:lang="fr"><seg>Confirmez votre commande</seg></tuv>
+			<tuv xml:lang="de"><seg>Best&#228;tigen Sie Ihre Bestellung</seg></tuv>
+        </tu>
+
+        <tu tuid="h2_confirmed_cart">
+			<tuv xml:lang="fr"><seg>Merci! Votre commande a ete enregistr&#233;e et va etre trait&#233;e.</seg></tuv>
+			<tuv xml:lang="de"><seg>Danke! Ihre Bestellung wurde geschickt und wird nun bearbeitet.</seg></tuv>
+        </tu>
+
+        <tu tuid="p1_confirmed_cart">
+			<tuv xml:lang="fr"><seg>Votre commande va etre trait&#233;e sous peu. L'enregistrement de la commande est communiqu&#233; &#224; notre Pizzeria dans la minute.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihre Bestellung wird in k&#252;rze bearbeitet. Das Mitteilen der Bestellung an der Pizzeria erfolgt nach weniger als eine Minute.</seg></tuv>
+        </tu>
+
+        <tu tuid="prev_cart_address_table">
+			<tuv xml:lang="fr"><seg>Livraison de la commande</seg></tuv>
+			<tuv xml:lang="de"><seg>Lieferung der Bestellung</seg></tuv>
+        </tu>
+
+        <tu tuid="prev_cart_ticket_table">
+			<tuv xml:lang="fr"><seg>Frais hors livraison (max 2,- euro)</seg></tuv>
+			<tuv xml:lang="de"><seg>Kosten ohne Lieferung (max 2,- euro)</seg></tuv>
+        </tu>
+
+        <tu tuid="h1_restaurant_info">
+			<tuv xml:lang="fr"><seg>Pizzeria Da Antonio, La Calamine</seg></tuv>
+			<tuv xml:lang="de"><seg>Pizzeria Da Antonio, Kelmis</seg></tuv>
+        </tu>
+
+        <tu tuid="h2_restaurant_info">
+			<tuv xml:lang="fr"><seg>Adresse de la Pizzeria</seg></tuv>
+			<tuv xml:lang="de"><seg>Adresse der Pizzeria</seg></tuv>
+        </tu>
+        
+<!-- MENU -->
+    
+        <tu tuid="txt_current_price_default">
+			<tuv xml:lang="fr"><seg>Prix</seg></tuv>
+			<tuv xml:lang="de"><seg>Preis</seg></tuv>
+        </tu>
+        <tu tuid="txt_current_price_custom">
+			<tuv xml:lang="fr"><seg>Prix avec suppl&#233;ments</seg></tuv>
+			<tuv xml:lang="de"><seg>Preis mit Extrazutaten</seg></tuv>
+        </tu>
+
+		<tu tuid="txt_delivery_excluded">
+			<tuv xml:lang="fr"><seg>(*) Frais de livraison exclus</seg></tuv>
+			<tuv xml:lang="de"><seg>(*) Versandkosten ausgeschloßen</seg></tuv>
+		</tu>
+		<tu tuid="txt_cart_minimum_price">
+			<tuv xml:lang="fr"><seg>Votre commande doit dépasser le montant de %d,- %s.</seg></tuv>
+			<tuv xml:lang="de"><seg>Ihre Bestellung muss den Mindestbetrag von %d,- %s überschreiten.</seg></tuv>
+		</tu> 
+        <tu tuid="txt_cart_item_remove">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>Entefernen von</seg></tuv>
+        </tu>
+        <tu tuid="txt_cart_item_remove">
+			<tuv xml:lang="fr"><seg>Supprimer</seg></tuv>
+			<tuv xml:lang="de"><seg>Entefernen von</seg></tuv>
+        </tu>
+        <tu tuid="txt_cart_item_andonce">
+			<tuv xml:lang="fr"><seg>.. Et une fois :</seg></tuv>
+			<tuv xml:lang="de"><seg>.. Und einmal :</seg></tuv>
+        </tu>
+        <tu tuid="txt_cart_item_where">
+			<tuv xml:lang="fr"><seg>.. Dont une fois :</seg></tuv>
+			<tuv xml:lang="de"><seg>.. Darunter einmal :</seg></tuv>
+        </tu>
+
+
+<!-- NEW TEMPLATE -->
+
+        <tu tuid="button_search">
+			<tuv xml:lang="fr"><seg>Recherchez des restaurant et des repas</seg></tuv>
+			<tuv xml:lang="de"><seg>Suchen Sie nach Restaurants und Speisen</seg></tuv>
+		</tu>
+        <tu tuid="button_order">
+			<tuv xml:lang="fr"><seg>Remplissez votre caddie et commandez!</seg></tuv>
+			<tuv xml:lang="de"><seg>Befüllen Sie Ihren Warenkorb und Bestellen Sie!</seg></tuv>
+		</tu>
+        <tu tuid="button_deliver">
+			<tuv xml:lang="fr"><seg>Attendez le livreur.</seg></tuv>
+			<tuv xml:lang="de"><seg>Willkommen Sie dem Lieferanten.</seg></tuv>
+		</tu>
+
+
+        <tu tuid="tooltip_searchbutton">
+			<tuv xml:lang="fr"><seg>Effectuez une recherche intelligente et dynamique de repas (dénomination de plâts et ingrédients) et de restaurants (nom ou par géolocalisation).</seg></tuv>
+			<tuv xml:lang="de"><seg>Benutzen Sie das intelligente Suchsystem für Speisen (nach Speisename und Zutaten) und Restaurants (nach Name oder Geo-Lokalisierung)</seg>.</tuv>
+		</tu>
+        <tu tuid="tooltip_orderbutton">
+			<tuv xml:lang="fr"><seg>Remplissez votre caddie en y ajoutant des plâts afin de former le repas que vous souhaitez commander.</seg></tuv>
+			<tuv xml:lang="de"><seg>Befüllen Sie Ihren Warenkorb indem Sie Speisen von der Speisekarte nach Ihren Wünschen in ein Mahlzeit gruppieren, den Sie bestellen möchten.</seg></tuv>
+		</tu>
+        <tu tuid="tooltip_deliverbutton">
+			<tuv xml:lang="fr"><seg>Le(s) livreur(s) se charge(nt) de votre commande. Nous garantissons un délai de 45 minutes pour toute commande traitée.</seg></tuv>
+			<tuv xml:lang="de"><seg>Der Lieferant liefert Ihnen Ihre Speisen. Wir garantieren eine Lieferung innerhalb der 45 Minuten folgend der Bestellungsnahme.</seg></tuv>
+		</tu>
+        <tu tuid="addr_input_example">
+			<tuv xml:lang="fr"><seg>p. ex.: pizza et tortellini à liège</seg></tuv>
+			<tuv xml:lang="de"><seg>p. ex.: pizza und tortellini in aachen</seg></tuv>
+		</tu>
+
+
+	</body>
+</tmx>
