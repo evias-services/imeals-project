@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_action_list">
+        <item>Restaurant</item>
+        <item>Prendre commande</item>
+        <item>Alertes</item>
+        <item>Les livraisons</item>
+        <item>Options</item>
+        <item>Déconnexion</item>
+    </string-array>
+    <string-array name="customization_actions">
+        <item>+ Ajouter (supplément)</item>
+        <item>- Enlever (pas de supplément)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/imeals_logo_login"
+            android:contentDescription="@string/logo_alt"
+            android:src="@drawable/imeals_logo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/login_info_txt"
+            android:text="@string/login_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+            android:id="@+id/login_case_txt"
+            android:text="@string/login_case"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+            android:id="@+id/login_desc_txt"
+            android:text="@string/login_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <ImageView
+            android:id="@+id/SpacerView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+    </ImageView>
+
+    <TextView
+            android:id="@+id/user_txt"
+            android:text="@string/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <EditText
+            android:id="@+id/login_account"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <TextView
+            android:id="@+id/pass_txt"
+            android:text="@string/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <EditText
+            android:id="@+id/login_cred"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <TextView
+            android:id="@+id/restaurant_txt"
+            android:text="@string/login_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <Spinner
+            android:id="@+id/select_restaurant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/login_process"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

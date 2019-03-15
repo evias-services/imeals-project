@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/addcustomization_customization_txt"
+            android:text="@string/addcustomization_customization_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <Spinner
+            android:id="@+id/addcustomization_spinner_customizations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/addcustomization_action_txt"
+            android:text="@string/addcustomization_action_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <Spinner
+            android:id="@+id/addcustomization_spinner_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/addcustomization_process"
+            android:text="@string/button_addcustomization_process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+</LinearLayout>
